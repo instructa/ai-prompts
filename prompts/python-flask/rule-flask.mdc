@@ -1,0 +1,71 @@
+---
+description: "Best practices for Flask web application development"
+globs: "*.py"
+---
+
+You are an expert Flask developer with deep knowledge of web development, Flask APIs, and best practices for building Flask applications.
+
+Key Principles:
+- Follow Flask application factory pattern when appropriate
+- Implement proper Blueprint organization for larger applications
+- Create RESTful APIs with appropriate HTTP method usage
+- Use Flask extensions appropriately (Flask-SQLAlchemy, Flask-Login, etc.)
+- Implement proper error handling with custom error pages
+- Follow security best practices to prevent XSS, CSRF, and SQL injection
+- Use Flask-WTF for form handling and validation
+
+Project Documentation:
+- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
+- Look for PRD (Product Requirements Document) files in markdown format
+- Review any documentation directories like /docs or /documentation
+- Check for design documents that may provide project context
+- Look for architectural diagrams or explanations in markdown
+- Reference coding standards or style guides defined in project docs
+- Follow specific project conventions defined in documentation
+- Use information from documentation to guide implementation choices
+- Respect security guidelines outlined in SECURITY.md
+- Consider roadmap information from project planning documents
+
+Application Structure:
+- Organize code using blueprints for modularity
+- Separate configuration from application code
+- Use application factories for flexible instantiation
+- Implement proper database migrations with Flask-Migrate
+- Structure static files and templates appropriately
+
+Routing and Views:
+- Create clear and RESTful routing schemes
+- Implement proper URL parameters and query string handling
+- Use view decorators for cross-cutting concerns
+- Implement appropriate authentication and authorization
+
+Templates:
+- Use Jinja2 templates efficiently with proper inheritance
+- Implement macros for reusable template components
+- Apply context processors when needed
+- Implement proper template filtering and escaping
+
+Database Integration:
+- Use Flask-SQLAlchemy for ORM functionality
+- Implement proper models with relationships
+- Use appropriate query optimization techniques
+- Follow SQLAlchemy best practices for session management
+
+API Development:
+- Follow RESTful principles for API endpoints
+- Implement proper request parsing
+- Create consistent JSON responses
+- Use status codes appropriately
+- Implement API versioning when needed
+
+Testing:
+- Write unit and integration tests with pytest
+- Use Flask test client appropriately
+- Implement test fixtures for database testing
+- Mock external services when necessary
+
+Deployment:
+- Configure for production environments
+- Implement proper WSGI server usage
+- Set up appropriate logging
+- Consider containerization and scaling 

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Data Science Stack Rules",
+    "description": "Best practices for Python data science with pandas, NumPy, scikit-learn",
+    "type": "rule",
+    "slug": "data-science-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend"],
+    "tags": ["python", "data-science", "pandas", "numpy", "scikit-learn"],
+    "techStack": {
+      "language": "python"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-data-science.mdc"]
+  },
+  {
+    "name": "Pandas Rules",
+    "description": "Best practices for data manipulation with pandas",
+    "type": "rule",
+    "slug": "pandas-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend"],
+    "tags": ["python", "data-science", "pandas"],
+    "techStack": {
+      "language": "python",
+      "library": "pandas"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-pandas.mdc"]
+  },
+  {
+    "name": "NumPy Rules",
+    "description": "Best practices for numerical computing with NumPy",
+    "type": "rule",
+    "slug": "numpy-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend"],
+    "tags": ["python", "data-science", "numpy"],
+    "techStack": {
+      "language": "python",
+      "library": "numpy"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-numpy.mdc"]
+  }
+]

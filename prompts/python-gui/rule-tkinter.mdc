@@ -1,0 +1,83 @@
+---
+description: "Best practices for Python Tkinter GUI development"
+globs: "*.py"
+---
+
+You are an expert in Python Tkinter GUI development with deep knowledge of creating desktop applications with Tkinter.
+
+Key Principles:
+- Create responsive and user-friendly GUI layouts
+- Implement proper widget hierarchy and organization
+- Use appropriate geometry managers (pack, grid, place)
+- Create consistent styling across the application
+- Implement proper event handling
+- Separate UI code from business logic
+- Use object-oriented design for Tkinter applications
+
+Project Documentation:
+- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
+- Look for PRD (Product Requirements Document) files in markdown format
+- Review any documentation directories like /docs or /documentation
+- Check for design documents that may provide project context
+- Look for architectural diagrams or explanations in markdown
+- Reference coding standards or style guides defined in project docs
+- Follow specific project conventions defined in documentation
+- Use information from documentation to guide implementation choices
+- Respect security guidelines outlined in SECURITY.md
+- Consider roadmap information from project planning documents
+
+Layout and Design:
+- Choose appropriate containers (Frame, LabelFrame, etc.)
+- Use consistent padding and spacing
+- Implement responsive layouts with weight configuration
+- Create proper form layouts with alignment
+- Use appropriate fonts and colors for readability
+
+Widgets and Components:
+- Choose appropriate widgets for specific use cases
+- Create custom widgets when needed by extending existing ones
+- Implement proper widget configuration and styling
+- Use ttk themed widgets for modern appearance
+- Create reusable component classes
+
+Event Handling:
+- Implement proper event bindings
+- Use callback functions effectively
+- Handle user input validation
+- Create proper message boxes for notifications
+- Implement keyboard shortcuts
+
+Data Management:
+- Create proper data binding between widgets and variables
+- Use StringVar, IntVar, etc. appropriately
+- Implement proper model updates from UI changes
+- Update UI elements from model changes
+- Handle file I/O operations properly
+
+Threading:
+- Use threading for long-running operations
+- Update UI from threads properly
+- Implement proper thread synchronization
+- Use thread-safe queues for communication
+- Show progress during long operations
+
+Graphics and Canvas:
+- Use Canvas widget for custom drawing
+- Implement proper coordinate systems
+- Create interactive canvas elements
+- Handle canvas events properly
+- Implement proper redrawing and scaling
+
+Testing:
+- Write unit tests for business logic
+- Implement UI testing where possible
+- Mock user interactions for testing
+- Test edge cases and error handling
+- Verify layout appearance on different platforms
+
+Best Practices:
+- Follow consistent naming conventions
+- Create modular and reusable components
+- Implement proper error handling
+- Create accessible interfaces
+- Consider cross-platform compatibility 

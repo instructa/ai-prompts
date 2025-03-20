@@ -1,0 +1,21 @@
+[
+  {
+    "name": "FastAPI Framework Rules",
+    "description": "Best practices for FastAPI development",
+    "type": "rule",
+    "slug": "fastapi-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "api"],
+    "tags": ["python", "fastapi", "web-development", "async"],
+    "techStack": {
+      "language": "python",
+      "framework": "fastapi"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-fastapi.mdc"]
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Tkinter GUI Rules",
+    "description": "Best practices for Python Tkinter GUI development",
+    "type": "rule",
+    "slug": "tkinter-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["frontend"],
+    "tags": ["python", "tkinter", "gui", "desktop"],
+    "techStack": {
+      "language": "python",
+      "framework": "tkinter"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-tkinter.mdc"]
+  },
+  {
+    "name": "CustomTkinter GUI Rules",
+    "description": "Best practices for Python CustomTkinter GUI development",
+    "type": "rule",
+    "slug": "customtkinter-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["frontend"],
+    "tags": ["python", "customtkinter", "gui", "desktop"],
+    "techStack": {
+      "language": "python",
+      "framework": "customtkinter"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-customtkinter.mdc"]
+  },
+  {
+    "name": "PyQt/PySide GUI Rules",
+    "description": "Best practices for PyQt/PySide development",
+    "type": "rule",
+    "slug": "pyqt-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["frontend"],
+    "tags": ["python", "pyqt", "pyside", "gui", "desktop"],
+    "techStack": {
+      "language": "python",
+      "framework": "pyqt"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-pyqt.mdc"]
+  }
+]

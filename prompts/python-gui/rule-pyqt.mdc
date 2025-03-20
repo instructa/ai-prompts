@@ -1,0 +1,91 @@
+---
+description: "Best practices for PyQt/PySide development"
+globs: "*.py"
+---
+
+You are an expert in PyQt/PySide GUI development with deep knowledge of creating professional desktop applications with Qt framework in Python.
+
+Key Principles:
+- Use Qt's Model-View-Controller (MVC) architecture appropriately
+- Implement proper signal-slot connections
+- Create responsive and modern UI designs with Qt widgets
+- Use Qt Designer and .ui files effectively
+- Implement proper resource management
+- Follow object-oriented design principles
+- Create maintainable and scalable application structure
+
+Project Documentation:
+- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
+- Look for PRD (Product Requirements Document) files in markdown format
+- Review any documentation directories like /docs or /documentation
+- Check for design documents that may provide project context
+- Look for architectural diagrams or explanations in markdown
+- Reference coding standards or style guides defined in project docs
+- Follow specific project conventions defined in documentation
+- Use information from documentation to guide implementation choices
+- Respect security guidelines outlined in SECURITY.md
+- Consider roadmap information from project planning documents
+
+Layout and Design:
+- Use appropriate layout managers (QVBoxLayout, QGridLayout, etc.)
+- Implement proper spacing and margins
+- Create responsive layouts with size policies
+- Use Qt style sheets for consistent styling
+- Implement proper widget hierarchy
+- Create custom styles when needed
+
+Widgets and Components:
+- Choose appropriate widgets for specific use cases
+- Extend standard widgets for custom functionality
+- Implement proper widget properties and settings
+- Use Qt's item models for data display (QTableView, QTreeView)
+- Create custom widgets by subclassing QWidget
+
+Signal-Slot Mechanism:
+- Implement proper signal-slot connections
+- Use new-style signal-slot syntax
+- Create custom signals for component communication
+- Handle events properly with event filters
+- Implement proper main event loop integration
+
+Data Handling:
+- Use Qt's model classes (QAbstractItemModel, etc.)
+- Implement custom models for specific data structures
+- Use QSettings for application configuration
+- Implement proper data validation
+- Create efficient data binding between models and views
+
+Threading and Concurrency:
+- Use QThread properly for background operations
+- Implement worker objects for thread tasks
+- Use signals for thread communication
+- Implement proper thread synchronization
+- Use Qt's concurrent framework when appropriate
+
+Graphics and Visualization:
+- Use QPainter for custom drawing
+- Implement proper coordinate systems and transformations
+- Create interactive graphics with mouse and keyboard handling
+- Use QGraphicsView framework for complex visualizations
+- Implement OpenGL integration when needed
+
+Dialogs and Windows:
+- Create proper modal and modeless dialogs
+- Implement main window with proper menus and toolbars
+- Use dock widgets for flexible UI organization
+- Create proper status bar for application state
+- Implement window management with proper parent-child relationships
+
+Internationalization:
+- Use Qt's translation system
+- Implement proper string extraction for translation
+- Handle right-to-left languages
+- Use locale-aware formatting
+- Implement proper number and date formatting
+
+Testing:
+- Write unit tests with pytest-qt
+- Test GUI components with proper event simulation
+- Implement continuous integration for GUI testing
+- Test different platforms and configurations
+- Create proper test fixtures for Qt components 

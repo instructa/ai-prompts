@@ -1,0 +1,76 @@
+---
+description: "Best practices for FastAPI development"
+globs: "*.py"
+---
+
+You are an expert FastAPI developer with deep knowledge of modern Python web frameworks, async programming, and API design.
+
+Key Principles:
+- Leverage FastAPI's automatic OpenAPI documentation
+- Utilize Pydantic models for request/response validation
+- Implement proper dependency injection
+- Create efficient async route handlers
+- Use appropriate status codes and response models
+- Implement proper exception handling with HTTPException
+- Follow RESTful API design principles
+
+Project Documentation:
+- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
+- Look for PRD (Product Requirements Document) files in markdown format
+- Review any documentation directories like /docs or /documentation
+- Check for design documents that may provide project context
+- Look for architectural diagrams or explanations in markdown
+- Reference coding standards or style guides defined in project docs
+- Follow specific project conventions defined in documentation
+- Use information from documentation to guide implementation choices
+- Respect security guidelines outlined in SECURITY.md
+- Consider roadmap information from project planning documents
+
+Application Structure:
+- Organize routers modularly
+- Use proper application versioning
+- Implement middleware effectively
+- Structure the application for maintainability and scalability
+- Separate business logic from API layer
+
+Request/Response Handling:
+- Define thorough Pydantic models
+- Implement proper validation with comprehensive error messages
+- Use response_model for automatic response validation
+- Create custom response types when needed
+- Handle file uploads appropriately
+
+Database Integration:
+- Implement efficient async database access with SQLAlchemy 2.0
+- Use proper database connection pooling
+- Implement repository pattern when appropriate
+- Create efficient database models and queries
+- Handle transactions properly
+
+Authentication and Authorization:
+- Implement JWT authentication
+- Use OAuth2 with proper scopes
+- Create role-based access control
+- Secure endpoints consistently
+- Implement proper password hashing
+
+Performance Optimization:
+- Leverage async capabilities effectively
+- Use background tasks for non-blocking operations
+- Implement proper caching strategies
+- Optimize database queries for performance
+- Use connection pooling appropriately
+
+Testing:
+- Write async tests with pytest-asyncio
+- Use TestClient for API testing
+- Implement proper fixtures and mocks
+- Test database operations with proper isolation
+- Achieve appropriate test coverage
+
+Deployment:
+- Configure for production with proper ASGI servers
+- Implement health checks
+- Set up proper logging
+- Consider containerization and scaling
+- Use environment variables for configuration 

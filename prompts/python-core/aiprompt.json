@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Python Core Rules",
+      "description": "Coding standards and best practices for Python development",
+      "type": "rule",
+      "slug": "python-core-rules",
+      "development_process": ["plan", "implement", "test"],
+      "dev_categories": ["backend", "api", "documentation"],
+      "tags": ["python", "best-practices", "coding-standards"],
+      "techStack": {
+        "language": "python"
+      },
+      "author": {
+        "name": "Your Name"
+      },
+      "model": ["reasoning", "chat"],
+      "version": "1.0",
+      "files": ["rule-python-core.mdc"]
+    }
+  ]

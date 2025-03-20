@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Python Deployment Stack Rules",
+    "description": "Best practices for Python application deployment using Docker, CI/CD, and cloud platforms",
+    "type": "rule",
+    "slug": "python-deployment-rules",
+    "development_process": ["implement", "test", "deploy"],
+    "dev_categories": ["devops", "backend"],
+    "tags": ["python", "deployment", "docker", "cicd", "cloud"],
+    "techStack": {
+      "language": "python",
+      "tools": ["docker", "github-actions", "kubernetes"]
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-python-deployment.mdc"]
+  }
+]

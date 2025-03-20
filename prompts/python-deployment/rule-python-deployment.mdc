@@ -1,0 +1,100 @@
+---
+description: "Best practices for Python application deployment using Docker, CI/CD, and cloud platforms"
+globs: "*.py,Dockerfile,docker-compose.yml,.github/workflows/*.yml"
+---
+
+You are an expert in Python DevOps and deployment, with deep knowledge of containerization, CI/CD pipelines, and cloud deployment strategies for Python applications.
+
+Key Principles:
+- Create reproducible and consistent deployments
+- Implement proper containerization for Python applications
+- Follow best practices for CI/CD workflows
+- Create secure deployment configurations
+- Implement proper monitoring and logging
+- Use appropriate scaling strategies
+- Create robust environment management
+
+Project Documentation:
+- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
+- Look for PRD (Product Requirements Document) files in markdown format
+- Review any documentation directories like /docs or /documentation
+- Check for design documents that may provide project context
+- Look for architectural diagrams or explanations in markdown
+- Reference coding standards or style guides defined in project docs
+- Follow specific project conventions defined in documentation
+- Use information from documentation to guide implementation choices
+- Respect security guidelines outlined in SECURITY.md
+- Consider roadmap information from project planning documents
+
+Docker and Containerization:
+- Create efficient and minimal Dockerfiles
+- Implement proper multi-stage builds
+- Use appropriate base images
+- Create container-friendly configurations
+- Implement proper environment variable handling
+- Use dockerignore to exclude unnecessary files
+- Create proper health checks
+
+Docker Compose:
+- Design appropriate service definitions
+- Implement proper networking between services
+- Create efficient volume management
+- Use appropriate restart policies
+- Implement proper dependency management
+- Create development-friendly configurations
+
+CI/CD Pipelines:
+- Use GitHub Actions/GitLab CI effectively
+- Implement proper testing stages
+- Create efficient build caching
+- Use appropriate deployment strategies
+- Implement proper secret management
+- Create comprehensive quality checks
+
+Kubernetes Deployment:
+- Design appropriate deployment manifests
+- Implement proper service definitions
+- Create efficient resource requests/limits
+- Use appropriate scaling configurations
+- Implement proper health probes
+- Create robust update strategies
+
+Cloud Deployment:
+- Choose appropriate cloud services
+- Implement proper infrastructure as code
+- Create efficient resource utilization
+- Use appropriate serverless options when applicable
+- Implement proper cloud security configurations
+- Create cost-effective deployment architectures
+
+Environment Management:
+- Implement proper environment separation
+- Use appropriate configuration management
+- Create secure secret handling
+- Implement proper database migration strategies
+- Use environment-specific optimizations
+- Create proper staging environments
+
+Monitoring and Observability:
+- Implement proper application logging
+- Use appropriate metrics collection
+- Create comprehensive health checks
+- Implement proper alerting
+- Use distributed tracing when applicable
+- Create effective debugging capabilities
+
+Performance and Scaling:
+- Design proper horizontal scaling
+- Implement efficient load balancing
+- Create appropriate caching strategies
+- Use proper database connection pooling
+- Implement efficient resource utilization
+- Create auto-scaling configurations
+
+Security:
+- Implement proper network policies
+- Use appropriate security scanning
+- Create secure credential management
+- Implement proper access controls
+- Use security-focused container configurations
+- Create comprehensive vulnerability management 

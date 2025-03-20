@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Web Scraping Stack Rules",
+    "description": "Best practices for web scraping and data collection with Python",
+    "type": "rule",
+    "slug": "web-scraping-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "api"],
+    "tags": ["python", "web-scraping", "requests", "beautifulsoup", "scrapy"],
+    "techStack": {
+      "language": "python"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-web-scraping.mdc"]
+  },
+  {
+    "name": "BeautifulSoup Rules",
+    "description": "Best practices for HTML parsing with BeautifulSoup",
+    "type": "rule",
+    "slug": "beautifulsoup-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend"],
+    "tags": ["python", "web-scraping", "beautifulsoup", "html-parsing"],
+    "techStack": {
+      "language": "python",
+      "library": "beautifulsoup4"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-beautifulsoup.mdc"]
+  },
+  {
+    "name": "Scrapy Rules",
+    "description": "Best practices for web crawling with Scrapy",
+    "type": "rule",
+    "slug": "scrapy-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend"],
+    "tags": ["python", "web-scraping", "scrapy", "crawling"],
+    "techStack": {
+      "language": "python",
+      "framework": "scrapy"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-scrapy.mdc"]
+  }
+]

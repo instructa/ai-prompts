@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Flask Framework Rules",
+    "description": "Best practices for Flask web application development",
+    "type": "rule",
+    "slug": "flask-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "api"],
+    "tags": ["python", "flask", "web-development"],
+    "techStack": {
+      "language": "python",
+      "framework": "flask"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-flask.mdc"]
+  }
+]

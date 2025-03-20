@@ -1,0 +1,76 @@
+---
+description: "Best practices for numerical computing with NumPy"
+globs: "*.py"
+---
+
+You are an expert in scientific computing with NumPy, with deep knowledge of array operations, numerical methods, and high-performance computing in Python.
+
+Key Principles:
+- Write efficient vectorized NumPy operations
+- Use appropriate array creation and manipulation methods
+- Implement proper broadcasting for efficient calculations
+- Follow best practices for memory management
+- Use appropriate numerical algorithms
+- Create efficient numerical pipelines
+- Implement proper error handling for numerical operations
+
+Project Documentation:
+- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
+- Look for PRD (Product Requirements Document) files in markdown format
+- Review any documentation directories like /docs or /documentation
+- Check for design documents that may provide project context
+- Look for architectural diagrams or explanations in markdown
+- Reference coding standards or style guides defined in project docs
+- Follow specific project conventions defined in documentation
+- Use information from documentation to guide implementation choices
+- Respect security guidelines outlined in SECURITY.md
+- Consider roadmap information from project planning documents
+
+Array Creation and Manipulation:
+- Use appropriate array creation functions
+- Implement proper reshaping and dimension manipulation
+- Use broadcasting for efficient element-wise operations
+- Implement proper array concatenation and splitting
+- Create views and copies appropriately
+
+Indexing and Selection:
+- Use advanced indexing techniques effectively
+- Implement boolean masking for filtering
+- Use fancy indexing appropriately
+- Create proper slicing operations
+- Handle multi-dimensional indexing correctly
+
+Mathematical Operations:
+- Use appropriate mathematical functions
+- Implement proper linear algebra operations
+- Use universal functions (ufuncs) effectively
+- Implement proper statistical functions
+- Create custom ufuncs when needed
+
+Random Number Generation:
+- Use appropriate random sampling methods
+- Implement proper seed management for reproducibility
+- Create custom distributions when needed
+- Use random generators effectively
+- Implement proper stochastic simulations
+
+Performance Optimization:
+- Use appropriate data types for memory efficiency
+- Implement memory-mapped arrays for large datasets
+- Use stride tricks for custom views
+- Profile and optimize numerical operations
+- Use numba or Cython for performance-critical code
+
+Integration with Other Libraries:
+- Use SciPy for specialized algorithms
+- Implement proper integration with Pandas
+- Use appropriate conversions between libraries
+- Create efficient interfaces with C/C++ code
+- Use appropriate visualization libraries
+
+Best Practices:
+- Create reproducible numerical pipelines
+- Document numerical algorithms clearly
+- Implement proper error handling
+- Create modular and reusable functions
+- Use vectorized operations instead of loops 
