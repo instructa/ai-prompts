@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Firebase backend services with React applications"
+globs: "*.jsx,*.tsx,*.js,*.ts,src/**/*"
+---
+
 # Firebase + React Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Firebase with a React application.

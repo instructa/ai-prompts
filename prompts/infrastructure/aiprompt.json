@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Infrastructure Development",
+    "description": "Best practices for infrastructure and DevOps patterns",
+    "type": "rule",
+    "slug": "infrastructure-development",
+    "published": true,
+    "tech_stack": {
+      "language": "mixed",
+      "framework": "infrastructure"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-terraform.md",
+      "rule-gitops-stack.md",
+      "rule-observability-stack.md",
+      "rule-iac-stack.md",
+      "rule-nginx-letsencrypt-docker.md",
+      "rule-microservices-stack.md",
+      "rule-apache-php-mysql.md"
+    ]
+  }
+]

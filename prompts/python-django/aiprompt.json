@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Django Framework Rules",
+    "description": "Best practices for Django web application development",
+    "type": "rule",
+    "slug": "django-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "api", "db"],
+    "tags": ["python", "django", "web-development"],
+    "tech_stack": {
+      "framework": "django"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-django.md"]
+  },
+  {
+    "name": "Django REST Framework Rules",
+    "description": "Best practices for building APIs with Django REST Framework",
+    "type": "rule",
+    "slug": "django-rest-framework-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "api"],
+    "tags": ["python", "django", "rest", "api"],
+    "tech_stack": {
+      "framework": "django",
+      "library": "django-rest-framework" 
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-django-rest-framework.md"]
+  }
+]

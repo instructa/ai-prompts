@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Mobile Development",
+    "description": "Best practices for mobile application development",
+    "type": "rule",
+    "slug": "mobile-development",
+    "published": true,
+    "tech_stack": {
+      "language": "mixed",
+      "framework": "mobile"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-react-native.md",
+      "rule-swiftui.md",
+      "rule-xamarin.md"
+    ]
+  }
+]

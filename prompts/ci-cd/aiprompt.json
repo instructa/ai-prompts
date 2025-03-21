@@ -1,0 +1,25 @@
+[
+  {
+    "name": "CI/CD Best Practices",
+    "description": "Best practices for Continuous Integration and Continuous Deployment",
+    "type": "rule",
+    "slug": "ci-cd-best-practices",
+    "published": true,
+    "tech_stack": {
+      "language": "yaml",
+      "framework": "devops"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-github-actions.md",
+      "rule-jenkins.md",
+      "rule-gitlab-ci.md",
+      "rule-circleci.md"
+    ]
+  }
+]

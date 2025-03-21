@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Tkinter GUI Rules",
+    "description": "Best practices for Python Tkinter GUI development",
+    "type": "rule",
+    "slug": "tkinter-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["frontend"],
+    "tags": ["python", "tkinter", "gui", "desktop"],
+    "tech_stack": {
+      "framework": "tkinter"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-tkinter.md"]
+  },
+  {
+    "name": "CustomTkinter GUI Rules",
+    "description": "Best practices for Python CustomTkinter GUI development",
+    "type": "rule",
+    "slug": "customtkinter-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["frontend"],
+    "tags": ["python", "customtkinter", "gui", "desktop"],
+    "tech_stack": {
+      "framework": "customtkinter"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-customtkinter.md"]
+  },
+  {
+    "name": "PyQt/PySide GUI Rules",
+    "description": "Best practices for PyQt/PySide development",
+    "type": "rule",
+    "slug": "pyqt-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["frontend"],
+    "tags": ["python", "pyqt", "pyside", "gui", "desktop"],
+    "tech_stack": {
+      "framework": "pyqt"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-pyqt.md"]
+  }
+]

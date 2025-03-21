@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Drizzle ORM with Nuxt applications"
+globs: "*.vue,*.ts,nuxt.config.*,server/**/*,composables/**/*"
+---
+
 # Drizzle + Nuxt Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Drizzle ORM with a Nuxt 3 application.

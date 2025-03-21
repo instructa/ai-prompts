@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Python Web Frameworks Rules",
+    "description": "Best practices for Python web frameworks beyond Django and Flask",
+    "type": "rule",
+    "slug": "python-web-frameworks-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "web", "python"],
+    "tags": ["python", "web-frameworks", "backend"],
+    "tech_stack": {
+      "framework": "python"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-pyramid.md", "rule-tornado.md", "rule-cherrypy.md", "rule-bottle.md", "rule-sanic.md"]
+  }
+]

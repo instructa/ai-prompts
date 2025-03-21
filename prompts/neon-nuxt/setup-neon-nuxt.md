@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Neon serverless Postgres with Nuxt applications"
+globs: "*.vue,*.ts,nuxt.config.*,server/**/*,composables/**/*"
+---
+
 # Neon + Nuxt Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Neon serverless Postgres with a Nuxt 3 application.

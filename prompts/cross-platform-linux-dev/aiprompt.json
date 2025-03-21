@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Cross-Platform Development from Linux",
+    "description": "Best practices for developing cross-platform applications from a Linux environment",
+    "type": "rule",
+    "slug": "cross-platform-linux-dev",
+    "development_process": ["plan", "implement", "test", "deploy"],
+    "dev_categories": ["backend", "frontend", "devops"],
+    "tags": ["cross-platform", "linux", "development"],
+    "tech_stack": {
+      "framework": "cross-platform",
+      "service": "linux"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-cross-platform-linux-dev.md"]
+  }
+] 

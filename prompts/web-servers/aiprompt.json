@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Web Servers & Proxy Servers",
+    "description": "Best practices for working with web servers and proxy servers",
+    "type": "rule",
+    "slug": "web-servers-proxy-servers",
+    "published": true,
+    "tech_stack": {
+      "language": "config",
+      "framework": "server"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-nginx.md",
+      "rule-apache.md",
+      "rule-caddy.md",
+      "rule-haproxy.md",
+      "rule-traefik.md"
+    ]
+  }
+]

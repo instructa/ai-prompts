@@ -1,4 +1,3 @@
-```markdown
 ---
 description: Guidelines for deploying the Next.js 15 text-to-image app to Vercel
 globs: **/*.ts, **/*.tsx, **/*.js, **/*.jsx

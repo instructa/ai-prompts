@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Documentation Tools",
+    "description": "Best practices for creating documentation with various documentation tools",
+    "type": "rule",
+    "slug": "documentation-tools",
+    "published": true,
+    "tech_stack": {
+      "language": "markdown",
+      "framework": "documentation"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-sphinx.md",
+      "rule-mkdocs.md",
+      "rule-docusaurus.md"
+    ]
+  }
+]

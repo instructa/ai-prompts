@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Flask Framework Rules",
+    "description": "Best practices for Flask web application development",
+    "type": "rule",
+    "slug": "flask-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "api"],
+    "tags": ["python", "flask", "web-development"],
+    "tech_stack": {
+      "framework": "flask"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-flask.md"]
+  }
+]

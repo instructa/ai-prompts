@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Drizzle ORM with Astro applications"
+globs: "*.astro,*.ts,astro.config.*,env.d.ts"
+---
+
 # Drizzle + Astro Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Drizzle ORM with an Astro application.

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Blockchain & Web3 Development",
+    "description": "Best practices for blockchain and Web3 development",
+    "type": "rule",
+    "slug": "blockchain-web3",
+    "published": true,
+    "tech_stack": {
+      "language": "javascript",
+      "framework": "nodejs"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-ethereum.md",
+      "rule-web3js.md",
+      "rule-solidity.md"
+    ]
+  }
+]

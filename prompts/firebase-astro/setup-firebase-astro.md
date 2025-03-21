@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Firebase backend services with Astro applications"
+globs: "*.astro,*.ts,astro.config.*,env.d.ts"
+---
+
 # Firebase + Astro Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Firebase with an Astro application.

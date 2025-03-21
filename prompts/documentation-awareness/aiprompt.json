@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Project Documentation Awareness Rules",
+    "description": "Best practices for analyzing and following project documentation",
+    "type": "rule",
+    "slug": "documentation-awareness-rules",
+    "development_process": ["plan", "implement", "test", "deploy"],
+    "dev_categories": ["documentation", "planning", "architecture"],
+    "tags": ["documentation", "best-practices", "requirements"],
+    "tech_stack": {
+      "framework": "documentation"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-documentation-awareness.md"]
+  }
+] 

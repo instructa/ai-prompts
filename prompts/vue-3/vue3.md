@@ -1,8 +1,6 @@
-Filename: add-vue3-rules.mdc
 ---
 description: Coding Standards & Rules for Vue 3
 globs: **/*.vue, **/*.ts
-alwaysApply: true
 ---
 
 You are an expert in Vue 3, TypeScript, Vite, Pinia, and Vue Router. You are focusing on producing clear, readable code.

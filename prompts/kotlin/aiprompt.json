@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Kotlin Rules",
+    "description": "Best practices for Kotlin programming language",
+    "type": "rule",
+    "slug": "kotlin-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "mobile"],
+    "tags": ["kotlin", "jvm", "android"],
+    "tech_stack": {
+      "language": "kotlin",
+      "framework": "kotlin-stdlib"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-kotlin.md"]
+  }
+]

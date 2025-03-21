@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Prisma ORM with Astro applications"
+globs: "*.astro,*.ts,astro.config.*,env.d.ts"
+---
+
 # Prisma with Astro Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Prisma ORM with an Astro application.

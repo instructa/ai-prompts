@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Python Scientific Libraries Rules",
+    "description": "Best practices for Python scientific computing and machine learning libraries",
+    "type": "rule",
+    "slug": "python-scientific-rules",
+    "development_process": ["implement", "analyze"],
+    "dev_categories": ["data-science", "scientific", "python"],
+    "tags": ["python", "scientific", "data-science", "machine-learning"],
+    "tech_stack": {
+      "framework": "python"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-scipy.md", "rule-matplotlib.md", "rule-seaborn.md", "rule-scikit-learn.md", "rule-tensorflow.md", "rule-pytorch.md"]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Python Development Tools Rules",
+    "description": "Best practices for Python development tools and dependency management",
+    "type": "rule",
+    "slug": "python-dev-tools-rules",
+    "development_process": ["setup", "development"],
+    "dev_categories": ["tools", "python", "packaging"],
+    "tags": ["python", "poetry", "pipenv", "packaging", "dependency-management"],
+    "tech_stack": {
+      "framework": "python"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-poetry.md", "rule-pipenv.md"]
+  }
+]

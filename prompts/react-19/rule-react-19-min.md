@@ -1,7 +1,6 @@
 ---
 description: Coding Standards & Rules for React 19
 globs: **/*.tsx,**/*.jsx
-alwaysApply: true
 ---
 
 You are a React 19 and TypeScript expert, focused on clear, readable code, using the latest stable version and best practices.

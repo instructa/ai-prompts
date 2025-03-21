@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Embedded Systems & IoT",
+    "description": "Best practices for embedded systems and IoT development",
+    "type": "rule",
+    "slug": "embedded-systems-iot",
+    "published": true,
+    "tech_stack": {
+      "language": "c",
+      "framework": "embedded"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-arduino.md",
+      "rule-raspberry-pi.md",
+      "rule-micropython.md",
+      "rule-esp.md"
+    ]
+  }
+]

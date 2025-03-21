@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Database Development",
+    "description": "Best practices for working with NoSQL databases",
+    "type": "rule",
+    "slug": "database-development",
+    "published": true,
+    "tech_stack": {
+      "language": "javascript",
+      "framework": "database"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-mongodb.md",
+      "rule-dynamodb.md"
+    ]
+  }
+]

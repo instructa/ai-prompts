@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Stack Combinations",
+    "description": "Best practices for various technology stack combinations",
+    "type": "rule",
+    "slug": "stack-combinations",
+    "published": true,
+    "tech_stack": {
+      "language": "mixed",
+      "framework": "mixed"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-django-celery.md",
+      "rule-fastapi-sqlalchemy.md",
+      "rule-flask-sqlalchemy.md",
+      "rule-python-docker-k8s.md",
+      "rule-graphql-api-stack.md",
+      "rule-spa-bff.md",
+      "rule-electron-react.md"
+    ]
+  }
+]

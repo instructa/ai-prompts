@@ -1,0 +1,23 @@
+[
+  {
+    "name": "MERN Stack Rules",
+    "description": "Best practices for MERN (MongoDB, Express, React, Node.js) stack development",
+    "type": "rule",
+    "slug": "mern-stack-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["fullstack", "web", "javascript"],
+    "tags": ["mern", "mongodb", "express", "react", "nodejs", "fullstack"],
+    "tech_stack": {
+      "framework": "mern"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-mern-stack.md"]
+  }
+]

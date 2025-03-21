@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Data Science Stack Rules",
+    "description": "Best practices for Python data science with pandas, NumPy, scikit-learn",
+    "type": "rule",
+    "slug": "data-science-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend"],
+    "tags": ["python", "data-science", "pandas", "numpy", "scikit-learn"],
+    "tech_stack": {
+      "framework": "python",
+      "library": ["pandas", "numpy", "scikit-learn"]
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-data-science.md"]
+  },
+  {
+    "name": "Pandas Rules",
+    "description": "Best practices for data manipulation with pandas",
+    "type": "rule",
+    "slug": "pandas-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend"],
+    "tags": ["python", "data-science", "pandas"],
+    "tech_stack": {
+      "framework": "python",
+      "library": "pandas"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-pandas.md"]
+  },
+  {
+    "name": "NumPy Rules",
+    "description": "Best practices for numerical computing with NumPy",
+    "type": "rule",
+    "slug": "numpy-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend"],
+    "tags": ["python", "data-science", "numpy"],
+    "tech_stack": {
+      "framework": "python",
+      "library": "numpy"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-numpy.md"]
+  }
+]

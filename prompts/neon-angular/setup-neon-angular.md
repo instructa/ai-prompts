@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Neon serverless Postgres with Angular applications"
+globs: "*.component.ts,*.service.ts,*.module.ts,environment.ts,*.angular.json,angular.json"
+---
+
 # Neon + Angular Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Neon serverless Postgres with an Angular application.

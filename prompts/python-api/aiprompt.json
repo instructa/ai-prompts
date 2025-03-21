@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Python API Development Rules",
+    "description": "Best practices for Python API development and data validation",
+    "type": "rule",
+    "slug": "python-api-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "api", "python"],
+    "tags": ["python", "api", "graphql", "pydantic", "validation"],
+    "tech_stack": {
+      "framework": "python"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-python-graphql.md", "rule-pydantic.md"]
+  }
+]

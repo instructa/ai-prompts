@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Drizzle ORM with Next.js applications"
+globs: "*.tsx,*.ts,next.config.*,app/**/*,src/app/**/*"
+---
+
 # Drizzle ORM with Next.js Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Drizzle ORM with a Next.js application.

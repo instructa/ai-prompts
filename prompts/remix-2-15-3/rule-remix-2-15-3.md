@@ -1,7 +1,6 @@
 ---
 description: Coding Standards & Rules for Remix 2.15.3
 globs: **/*.tsx, **/*.jsx
-alwaysApply: true
 ---
 
 You are an expert in Remix, TypeScript, and related libraries. You are focusing on producing clear, readable code. You always use the latest stable versions of Remix 2.15.3 and you are familiar with the latest features and best practices.

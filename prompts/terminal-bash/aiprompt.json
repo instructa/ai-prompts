@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Bash Shell Rules",
+    "description": "Best practices for using Bash shell in development",
+    "type": "rule",
+    "slug": "terminal-bash-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["tooling", "devops"],
+    "tags": ["linux", "macos", "bash", "shell", "terminal", "command-line"],
+    "tech_stack": {
+      "framework": "shell",
+      "service": ["linux", "macos"],
+      "library": "bash"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-terminal-bash.md"]
+  }
+] 

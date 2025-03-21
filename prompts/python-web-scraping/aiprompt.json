@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Web Scraping Stack Rules",
+    "description": "Best practices for web scraping and data collection with Python",
+    "type": "rule",
+    "slug": "web-scraping-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "api"],
+    "tags": ["python", "web-scraping", "requests", "beautifulsoup", "scrapy"],
+    "tech_stack": {
+      "framework": "python",
+      "library": ["requests", "beautifulsoup4", "scrapy"]
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-web-scraping.md"]
+  },
+  {
+    "name": "BeautifulSoup Rules",
+    "description": "Best practices for HTML parsing with BeautifulSoup",
+    "type": "rule",
+    "slug": "beautifulsoup-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend"],
+    "tags": ["python", "web-scraping", "beautifulsoup", "html-parsing"],
+    "tech_stack": {
+      "framework": "python",
+      "library": "beautifulsoup4"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-beautifulsoup.md"]
+  },
+  {
+    "name": "Scrapy Rules",
+    "description": "Best practices for web crawling with Scrapy",
+    "type": "rule",
+    "slug": "scrapy-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend"],
+    "tags": ["python", "web-scraping", "scrapy", "crawling"],
+    "tech_stack": {
+      "framework": "scrapy"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-scrapy.md"]
+  }
+]

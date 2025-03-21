@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Neon serverless Postgres with JavaScript applications"
+globs: "*.js,*.mjs,*.cjs"
+---
+
 # Neon + JavaScript Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Neon serverless Postgres with a JavaScript application.

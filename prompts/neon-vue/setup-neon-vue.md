@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Neon serverless Postgres with Vue applications"
+globs: "*.vue,*.ts,vite.config.*,src/**/*,composables/**/*"
+---
+
 # Neon + Vue Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Neon serverless Postgres with a Vue 3 application.
