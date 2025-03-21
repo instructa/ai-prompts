@@ -6,30 +6,28 @@ alwaysApply: false
 ---
 description: "Best practices for building APIs with Django REST Framework"
 globs: "*.py"
+alwaysApply: false
 ---
 
 You are an expert in building APIs with Django REST Framework, with deep knowledge of RESTful design, serialization, and API authentication.
 
 Key Principles:
-- Create well-designed RESTful API endpoints
-- Implement proper serializer design
-- Use appropriate viewsets and views
-- Follow best practices for authentication and permissions
-- Create efficient pagination and filtering
-- Implement proper error handling
-- Use appropriate nested resources and relationships
+- Follow Django REST Framework best practices
+- Implement proper serializer design and validation
+- Create RESTful API endpoints with appropriate HTTP methods
+- Use appropriate authentication and permission classes
+- Implement proper pagination and filtering
+- Create efficient viewsets and routers
+- Follow API security best practices
 
-Project Documentation:
-- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
-- Look for PRD (Product Requirements Document) files in markdown format
-- Review any documentation directories like /docs or /documentation
-- Check for design documents that may provide project context
-- Look for architectural diagrams or explanations in markdown
-- Reference coding standards or style guides defined in project docs
-- Follow specific project conventions defined in documentation
-- Use information from documentation to guide implementation choices
-- Respect security guidelines outlined in SECURITY.md
-- Consider roadmap information from project planning documents
+API Design:
+- Design proper RESTful API endpoints
+- Implement appropriate HTTP methods for CRUD operations
+- Create nested or related resources properly
+- Use appropriate URL patterns and naming conventions
+- Implement versioning when needed
+- Create hypermedia-driven APIs when appropriate
+- Follow REST architectural constraints
 
 Serializers:
 - Create clear and efficient serializers

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Zsh Shell Rules",
+    "description": "Best practices for using Zsh shell in development",
+    "type": "rule",
+    "slug": "terminal-zsh-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["tooling", "devops"],
+    "tags": ["linux", "macos", "zsh", "shell", "terminal", "command-line"],
+    "techStack": {
+      "os": ["linux", "macos"],
+      "shell": "zsh"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-terminal-zsh.mdc"]
+  }
+] 

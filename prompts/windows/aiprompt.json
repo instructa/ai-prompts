@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Windows Rules",
+    "description": "Best practices for development on Windows systems",
+    "type": "rule",
+    "slug": "windows-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["tooling", "devops"],
+    "tags": ["windows", "powershell", "cmd"],
+    "techStack": {
+      "os": "windows"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-windows.mdc"]
+  }
+] 

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "macOS Rules",
+    "description": "Best practices for development on macOS systems",
+    "type": "rule",
+    "slug": "macos-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["tooling", "devops"],
+    "tags": ["macos", "zsh", "bash", "shell"],
+    "techStack": {
+      "os": "macos"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-macos.mdc"]
+  }
+] 

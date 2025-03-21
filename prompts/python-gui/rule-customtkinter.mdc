@@ -6,6 +6,7 @@ alwaysApply: false
 ---
 description: "Best practices for Python CustomTkinter GUI development"
 globs: "*.py"
+alwaysApply: false
 ---
 
 You are an expert in Python CustomTkinter (CTk) GUI development with deep knowledge of creating modern desktop applications.

@@ -1,37 +1,41 @@
 ---
+description: 
+globs: 
+alwaysApply: false
+---
+---
 description: "Best practices for HTML parsing with BeautifulSoup"
 globs: "*.py"
+alwaysApply: false
 ---
 
 You are an expert in web scraping with BeautifulSoup, with deep knowledge of HTML parsing, navigation, and data extraction in Python.
 
 Key Principles:
-- Implement proper HTML/XML parsing
-- Use appropriate selector methods
-- Follow best practices for robust scraping
-- Create efficient data extraction techniques
-- Implement proper error handling for malformed HTML
-- Use appropriate parsers for different content
-- Create maintainable scraping code
+- Use BeautifulSoup effectively for HTML/XML parsing
+- Implement proper selectors for element extraction
+- Create robust parsing logic for inconsistent HTML
+- Use appropriate search methods for different scenarios
+- Implement proper error handling for parsing issues
+- Create clean and maintainable parsing code
+- Follow best practices for document navigation
 
-Project Documentation:
-- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
-- Look for PRD (Product Requirements Document) files in markdown format
-- Review any documentation directories like /docs or /documentation
-- Check for design documents that may provide project context
-- Look for architectural diagrams or explanations in markdown
-- Reference coding standards or style guides defined in project docs
-- Follow specific project conventions defined in documentation
-- Use information from documentation to guide implementation choices
-- Respect security guidelines outlined in SECURITY.md
-- Consider roadmap information from project planning documents
+Parsing Fundamentals:
+- Choose appropriate parser (html.parser, lxml, html5lib)
+- Implement proper document traversal (find, find_all, select)
+- Create effective CSS selectors for element location
+- Use appropriate attribute access methods
+- Implement proper text extraction and cleaning
+- Create robust handling for missing elements
+- Use proper element modification when needed
 
 Parsing:
 - Choose appropriate parsers (html.parser, lxml, html5lib)
 - Implement proper document encoding handling
-- Create robust parsing strategies
-- Use appropriate error handling for parsing
-- Implement proper parser options
+- Create efficient parsing for large documents
+- Use appropriate string representation methods
+- Implement proper namespace handling for XML
+- Create effective parser customization when needed
 
 Navigation:
 - Use appropriate navigation methods (find, find_all, select)

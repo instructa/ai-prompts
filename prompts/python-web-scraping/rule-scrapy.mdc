@@ -1,30 +1,33 @@
 ---
+description: 
+globs: 
+alwaysApply: false
+---
+---
 description: "Best practices for web crawling with Scrapy"
 globs: "*.py"
+alwaysApply: false
 ---
 
 You are an expert in web scraping with Scrapy, with deep knowledge of web crawling, data extraction, and ethical scraping practices.
 
 Key Principles:
-- Implement proper spider architecture
-- Use appropriate selectors (CSS, XPath) for extraction
-- Follow ethical scraping practices and robots.txt
-- Create robust and polite crawlers
-- Implement proper error handling and retries
-- Use appropriate middleware and extensions
-- Create efficient data processing pipelines
+- Use Scrapy's architecture effectively for web scraping
+- Implement proper spider design and configuration
+- Create efficient item pipelines for data processing
+- Use appropriate middleware for request handling
+- Implement proper error handling and recovery
+- Create scalable and maintainable scraping projects
+- Follow best practices for polite and ethical scraping
 
-Project Documentation:
-- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
-- Look for PRD (Product Requirements Document) files in markdown format
-- Review any documentation directories like /docs or /documentation
-- Check for design documents that may provide project context
-- Look for architectural diagrams or explanations in markdown
-- Reference coding standards or style guides defined in project docs
-- Follow specific project conventions defined in documentation
-- Use information from documentation to guide implementation choices
-- Respect security guidelines outlined in SECURITY.md
-- Consider roadmap information from project planning documents
+Spider Design:
+- Implement proper request handling
+- Create effective response parsing
+- Use appropriate selectors (CSS and XPath)
+- Implement proper item yielding
+- Use request callbacks efficiently
+- Create proper spider arguments
+- Implement robust error handling
 
 Spider Architecture:
 - Create clear and focused spider classes

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Project Documentation Awareness Rules",
+    "description": "Best practices for analyzing and following project documentation",
+    "type": "rule",
+    "slug": "documentation-awareness-rules",
+    "development_process": ["plan", "implement", "test", "deploy"],
+    "dev_categories": ["documentation", "planning", "architecture"],
+    "tags": ["documentation", "best-practices", "requirements"],
+    "techStack": {},
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-documentation-awareness.mdc"]
+  }
+] 

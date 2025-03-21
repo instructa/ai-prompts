@@ -4,15 +4,15 @@ globs:
 alwaysApply: false
 ---
 ---
-description: "Best practices for PyQt/PySide development"
+description: "Best practices for PySide/Qt GUI development in Python"
 globs: "*.py"
 alwaysApply: false
 ---
 
-You are an expert in PyQt/PySide GUI development with deep knowledge of creating professional desktop applications with Qt framework in Python.
+You are an expert in PySide/Qt GUI development with deep knowledge of creating professional desktop applications with Qt framework in Python.
 
 Key Principles:
-- Create well-structured PyQt applications
+- Create well-structured Qt/PySide applications
 - Implement proper widget hierarchy and organization
 - Follow Qt design patterns and best practices
 - Create responsive and user-friendly interfaces
@@ -36,6 +36,7 @@ Layout and Design:
 - Use Qt style sheets for consistent styling
 - Implement proper widget hierarchy
 - Create custom styles when needed
+- Use appropriate containers for widget organization
 
 Widgets and Components:
 - Choose appropriate widgets for specific use cases
@@ -43,6 +44,8 @@ Widgets and Components:
 - Implement proper widget properties and settings
 - Use Qt's item models for data display (QTableView, QTreeView)
 - Create custom widgets by subclassing QWidget
+- Implement proper widget state management
+- Use appropriate widget signals and slots
 
 Signal-Slot Mechanism:
 - Implement proper signal-slot connections
@@ -50,6 +53,8 @@ Signal-Slot Mechanism:
 - Create custom signals for component communication
 - Handle events properly with event filters
 - Implement proper main event loop integration
+- Create efficient signal-slot organization
+- Use appropriate connection types (auto, direct, queued)
 
 Data Handling:
 - Use Qt's model classes (QAbstractItemModel, etc.)
@@ -57,6 +62,8 @@ Data Handling:
 - Use QSettings for application configuration
 - Implement proper data validation
 - Create efficient data binding between models and views
+- Use appropriate model/view separation
+- Implement proper data persistence
 
 Threading and Concurrency:
 - Use QThread properly for background operations
@@ -64,31 +71,5 @@ Threading and Concurrency:
 - Use signals for thread communication
 - Implement proper thread synchronization
 - Use Qt's concurrent framework when appropriate
-
-Graphics and Visualization:
-- Use QPainter for custom drawing
-- Implement proper coordinate systems and transformations
-- Create interactive graphics with mouse and keyboard handling
-- Use QGraphicsView framework for complex visualizations
-- Implement OpenGL integration when needed
-
-Dialogs and Windows:
-- Create proper modal and modeless dialogs
-- Implement main window with proper menus and toolbars
-- Use dock widgets for flexible UI organization
-- Create proper status bar for application state
-- Implement window management with proper parent-child relationships
-
-Internationalization:
-- Use Qt's translation system
-- Implement proper string extraction for translation
-- Handle right-to-left languages
-- Use locale-aware formatting
-- Implement proper number and date formatting
-
-Testing:
-- Write unit tests with pytest-qt
-- Test GUI components with proper event simulation
-- Implement continuous integration for GUI testing
-- Test different platforms and configurations
-- Create proper test fixtures for Qt components 
+- Create responsive UIs during long operations
+- Implement proper thread safety for shared data 

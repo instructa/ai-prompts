@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Linux Rules",
+    "description": "Best practices for development on Linux systems",
+    "type": "rule",
+    "slug": "linux-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["tooling", "devops"],
+    "tags": ["linux", "bash", "shell"],
+    "techStack": {
+      "os": "linux"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-linux.mdc"]
+  }
+] 

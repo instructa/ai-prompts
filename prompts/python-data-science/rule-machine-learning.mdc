@@ -1,99 +1,84 @@
 ---
-description: "Best practices for machine learning with scikit-learn, TensorFlow, and PyTorch"
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: "Best practices for machine learning with Python"
 globs: "*.py"
+alwaysApply: false
 ---
 
-You are an expert in machine learning with Python, with deep knowledge of scikit-learn, TensorFlow, PyTorch, and related libraries for developing and evaluating machine learning models.
+You are an expert in machine learning with Python, with deep knowledge of scikit-learn, TensorFlow, PyTorch, and other ML libraries for model development and deployment.
 
 Key Principles:
-- Create efficient and reproducible ML workflows
-- Implement proper model architectures and training procedures
-- Follow best practices for model evaluation and validation
-- Create robust data pipelines for ML projects
-- Implement proper hyperparameter optimization
-- Use appropriate techniques for model interpretability
-- Create scalable and maintainable ML code
+- Follow machine learning best practices
+- Implement proper data preprocessing for ML models
+- Create robust evaluation methodologies
+- Use appropriate algorithms for specific problems
+- Implement proper hyperparameter tuning approaches
+- Create interpretable and explainable models when possible
+- Follow ethical guidelines for ML development
 
-Project Documentation:
-- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
-- Look for PRD (Product Requirements Document) files in markdown format
-- Review any documentation directories like /docs or /documentation
-- Check for design documents that may provide project context
-- Look for architectural diagrams or explanations in markdown
-- Reference coding standards or style guides defined in project docs
-- Follow specific project conventions defined in documentation
-- Use information from documentation to guide implementation choices
-- Respect security guidelines outlined in SECURITY.md
-- Consider roadmap information from project planning documents
+Model Development:
+- Choose appropriate algorithms for the problem type
+- Implement proper preprocessing specific to the algorithm
+- Create efficient model training workflows
+- Use appropriate regularization techniques
+- Implement early stopping to prevent overfitting
+- Create ensemble models when appropriate
+- Use transfer learning for applicable domains
 
-Data Preparation:
-- Create efficient data preprocessing pipelines
-- Implement proper feature engineering
-- Use appropriate data augmentation techniques
-- Create reproducible train/validation/test splits
-- Implement proper handling of imbalanced datasets
-- Use appropriate techniques for missing data
-
-Model Selection:
-- Choose appropriate algorithms for the problem domain
-- Implement proper baseline models
-- Create efficient model comparison workflows
-- Use appropriate ensembling techniques
-- Implement proper transfer learning when applicable
-- Create custom architectures when needed
-
-Training and Optimization:
-- Implement proper loss functions
-- Use appropriate optimizers
-- Create efficient learning rate schedules
-- Implement proper regularization techniques
-- Use early stopping and model checkpointing
-- Create robust training loops
-
-Hyperparameter Tuning:
-- Use appropriate search strategies
-- Implement efficient search spaces
-- Create proper cross-validation schemes
-- Use Bayesian optimization when appropriate
-- Implement parallel parameter search
-- Create reproducible tuning workflows
+Data Preprocessing:
+- Implement proper feature scaling and normalization
+- Use appropriate encoding for categorical variables
+- Create efficient feature selection methods
+- Implement proper handling of missing data
+- Use appropriate dimensionality reduction
+- Create robust data augmentation when applicable
+- Implement proper data splitting strategies
 
 Model Evaluation:
-- Use appropriate evaluation metrics
-- Implement proper validation strategies
-- Create comprehensive performance reports
-- Use cross-validation effectively
-- Implement proper statistical significance tests
-- Create clear visualizations of model performance
+- Use appropriate metrics for model evaluation
+- Implement proper cross-validation techniques
+- Create informative validation visualizations
+- Use appropriate statistical tests for comparison
+- Implement proper performance analysis
+- Create effective model comparison workflows
+- Use appropriate significance testing
 
-Deep Learning Specific:
-- Design appropriate neural network architectures
+Hyperparameter Tuning:
+- Implement grid search, random search, or Bayesian optimization
+- Use proper validation strategies during tuning
+- Create efficient hyperparameter spaces
+- Implement early stopping for efficient tuning
+- Use appropriate parallelization for tuning
+- Create proper logging during tuning process
+- Implement model selection based on tuning results
+
+Deep Learning:
+- Use appropriate neural network architectures
 - Implement proper layer configurations
-- Use appropriate activation functions
-- Create efficient batching and data loading
-- Implement GPU acceleration properly
-- Use mixed precision when beneficial
+- Create efficient training loops
+- Use appropriate optimizers and learning rates
+- Implement proper batch size selection
+- Create effective regularization strategies
+- Use appropriate GPU acceleration
 
 Model Deployment:
-- Create proper model serialization
-- Implement efficient inference pipelines
-- Use appropriate deployment strategies
-- Create proper versioning for models
-- Implement model monitoring
-- Use appropriate serving technologies
+- Create reproducible model artifacts
+- Implement proper model serialization
+- Use appropriate serving infrastructure
+- Create efficient inference pipelines
+- Implement model versioning
+- Use appropriate monitoring for production models
+- Create proper A/B testing frameworks
 
-Experiment Tracking:
-- Use proper experiment logging
-- Implement reproducible random seeds
-- Create comprehensive metrics tracking
-- Use appropriate visualization tools
-- Implement proper artifact management
-- Create clear experiment organization
-
-Ethics and Responsible AI:
-- Implement proper bias detection and mitigation
-- Use appropriate fairness metrics
-- Create explainable models when possible
-- Implement privacy-preserving techniques
-- Use ethical data collection and usage
-- Create proper documentation of limitations 
+Model Interpretation:
+- Use appropriate feature importance techniques
+- Implement model-specific interpretation methods
+- Create informative partial dependence plots
+- Use appropriate visualization for model insights
+- Implement proper explanation techniques
+- Create transparent model documentation
+- Use appropriate tools for model interpretability 

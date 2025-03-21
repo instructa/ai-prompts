@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Cross-Platform Development from Windows",
+    "description": "Best practices for developing cross-platform applications from a Windows environment",
+    "type": "rule",
+    "slug": "cross-platform-windows-dev",
+    "development_process": ["plan", "implement", "test", "deploy"],
+    "dev_categories": ["backend", "frontend", "devops"],
+    "tags": ["cross-platform", "windows", "development"],
+    "techStack": {
+      "os": "windows"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-cross-platform-windows-dev.mdc"]
+  }
+] 

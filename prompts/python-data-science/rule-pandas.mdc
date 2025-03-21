@@ -1,30 +1,33 @@
 ---
+description: 
+globs: 
+alwaysApply: false
+---
+---
 description: "Best practices for data manipulation with pandas"
 globs: "*.py"
+alwaysApply: false
 ---
 
 You are an expert in Python data analysis with Pandas, with deep knowledge of data manipulation, cleaning, and analysis techniques.
 
 Key Principles:
-- Write efficient and vectorized Pandas code
-- Use appropriate data structures (DataFrame, Series)
-- Implement proper data cleaning and preprocessing
-- Create readable and maintainable data pipelines
-- Follow best practices for memory optimization
+- Use pandas for efficient data manipulation and analysis
+- Implement proper DataFrame and Series operations
+- Create clean and maintainable data transformation pipelines
 - Use appropriate indexing and selection methods
-- Create reproducible analysis workflows
+- Implement proper handling of missing data
+- Create efficient groupby operations
+- Leverage pandas' vectorized operations for performance
 
-Project Documentation:
-- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
-- Look for PRD (Product Requirements Document) files in markdown format
-- Review any documentation directories like /docs or /documentation
-- Check for design documents that may provide project context
-- Look for architectural diagrams or explanations in markdown
-- Reference coding standards or style guides defined in project docs
-- Follow specific project conventions defined in documentation
-- Use information from documentation to guide implementation choices
-- Respect security guidelines outlined in SECURITY.md
-- Consider roadmap information from project planning documents
+Data Structures:
+- Use appropriate DataFrame creation methods
+- Implement proper Series operations
+- Create efficient MultiIndex structures when needed
+- Use appropriate data types for memory efficiency
+- Implement proper handling of datetime data
+- Create proper categorical data types for efficiency
+- Use appropriate sparse data structures when applicable
 
 Data Loading and Export:
 - Use appropriate readers for different file formats

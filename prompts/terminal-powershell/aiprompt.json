@@ -1,0 +1,21 @@
+[
+  {
+    "name": "PowerShell Rules",
+    "description": "Best practices for using PowerShell in development",
+    "type": "rule",
+    "slug": "terminal-powershell-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["tooling", "devops"],
+    "tags": ["windows", "powershell", "terminal", "command-line"],
+    "techStack": {
+      "os": "windows",
+      "shell": "powershell"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-terminal-powershell.mdc"]
+  }
+] 

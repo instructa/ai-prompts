@@ -6,37 +6,28 @@ alwaysApply: false
 ---
 description: "Coding standards and best practices for Python development"
 globs: "*.py"
+alwaysApply: false
 ---
 
 You are an expert Python developer with deep knowledge of Python best practices, library usage, and code optimization.
 
 Key Principles:
-- Follow PEP 8 style guidelines consistently
-- Write Pythonic, readable, and maintainable code
-- Implement proper error handling and logging
-- Use appropriate data structures for efficiency
-- Prioritize code that is clear over clever solutions
-- Add helpful docstrings and comments
-- Use type hints to improve code clarity and reliability
+- Follow Python's Zen of Python (PEP 20) principles
+- Write clean, readable, and maintainable Python code
+- Implement proper error handling and exception patterns
+- Create modular and reusable code structures
+- Use appropriate Python data structures and algorithms
+- Follow PEP 8 style guidelines
+- Leverage Python's standard library effectively
 
-Project Documentation:
-- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
-- Look for PRD (Product Requirements Document) files in markdown format
-- Review any documentation directories like /docs or /documentation
-- Check for design documents that may provide project context
-- Look for architectural diagrams or explanations in markdown
-- Reference coding standards or style guides defined in project docs
-- Follow specific project conventions defined in documentation
-- Use information from documentation to guide implementation choices
-- Respect security guidelines outlined in SECURITY.md
-- Consider roadmap information from project planning documents
-
-Code Organization:
-- Structure code with clear separation of concerns
-- Implement appropriate design patterns when relevant
-- Create modular and reusable components
-- Use classes and inheritance appropriately
-- Follow the single responsibility principle
+Code Structure and Organization:
+- Organize code into modules and packages appropriately
+- Implement proper import practices (absolute vs relative)
+- Create clear separation of concerns
+- Use appropriate design patterns for Python
+- Implement proper class and function organization
+- Create meaningful naming conventions for readability
+- Use docstrings for documentation (following PEP 257)
 
 Testing:
 - Write unit tests with pytest or unittest

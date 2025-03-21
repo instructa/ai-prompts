@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Cross-Platform Development from Linux",
+    "description": "Best practices for developing cross-platform applications from a Linux environment",
+    "type": "rule",
+    "slug": "cross-platform-linux-dev",
+    "development_process": ["plan", "implement", "test", "deploy"],
+    "dev_categories": ["backend", "frontend", "devops"],
+    "tags": ["cross-platform", "linux", "development"],
+    "techStack": {
+      "os": "linux"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-cross-platform-linux-dev.mdc"]
+  }
+] 

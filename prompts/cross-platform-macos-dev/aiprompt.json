@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Cross-Platform Development from macOS",
+    "description": "Best practices for developing cross-platform applications from a macOS environment",
+    "type": "rule",
+    "slug": "cross-platform-macos-dev",
+    "development_process": ["plan", "implement", "test", "deploy"],
+    "dev_categories": ["backend", "frontend", "devops"],
+    "tags": ["cross-platform", "macos", "development"],
+    "techStack": {
+      "os": "macos"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-cross-platform-macos-dev.mdc"]
+  }
+] 

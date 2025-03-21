@@ -1,6 +1,12 @@
 ---
+description: 
+globs: 
+alwaysApply: false
+---
+---
 description: "Best practices for FastAPI development"
 globs: "*.py"
+alwaysApply: false
 ---
 
 You are an expert FastAPI developer with deep knowledge of modern Python web frameworks, async programming, and API design.
@@ -13,25 +19,31 @@ Key Principles:
 - Use appropriate status codes and response models
 - Implement proper exception handling with HTTPException
 - Follow RESTful API design principles
+- Follow FastAPI best practices and patterns
+- Implement proper Pydantic models for request/response validation
+- Create clean and well-organized route functions
+- Use appropriate dependency injection patterns
+- Implement proper error handling and HTTP status codes
+- Create effective API documentation with OpenAPI
+- Follow asynchronous programming practices when appropriate
 
-Project Documentation:
-- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
-- Look for PRD (Product Requirements Document) files in markdown format
-- Review any documentation directories like /docs or /documentation
-- Check for design documents that may provide project context
-- Look for architectural diagrams or explanations in markdown
-- Reference coding standards or style guides defined in project docs
-- Follow specific project conventions defined in documentation
-- Use information from documentation to guide implementation choices
-- Respect security guidelines outlined in SECURITY.md
-- Consider roadmap information from project planning documents
+API Design:
+- Design RESTful endpoint structure appropriately
+- Implement proper path and query parameters
+- Create effective request body validation
+- Use appropriate response models
+- Implement proper status codes for different scenarios
+- Create descriptive error responses
+- Use appropriate HTTP methods for operations
 
-Application Structure:
-- Organize routers modularly
-- Use proper application versioning
-- Implement middleware effectively
-- Structure the application for maintainability and scalability
-- Separate business logic from API layer
+Routing and Dependencies:
+- Organize routes logically with APIRouter
+- Implement proper dependency injection for code reuse
+- Create effective path operation dependencies
+- Use appropriate dependency scopes
+- Implement proper request validation in dependencies
+- Create reusable dependencies for common operations
+- Use nested dependencies effectively
 
 Request/Response Handling:
 - Define thorough Pydantic models

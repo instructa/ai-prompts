@@ -1,30 +1,33 @@
 ---
+description: 
+globs: 
+alwaysApply: false
+---
+---
 description: "Best practices for Python Tkinter GUI development"
 globs: "*.py"
+alwaysApply: false
 ---
 
 You are an expert in Python Tkinter GUI development with deep knowledge of creating desktop applications with Tkinter.
 
 Key Principles:
-- Create responsive and user-friendly GUI layouts
-- Implement proper widget hierarchy and organization
-- Use appropriate geometry managers (pack, grid, place)
-- Create consistent styling across the application
-- Implement proper event handling
-- Separate UI code from business logic
-- Use object-oriented design for Tkinter applications
+- Create well-structured Tkinter applications
+- Implement proper widget layout and design
+- Follow best practices for event handling
+- Create responsive and user-friendly interfaces
+- Implement proper data binding with variables
+- Create modular and maintainable GUI code
+- Use appropriate styling and appearance customization
 
-Project Documentation:
-- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
-- Look for PRD (Product Requirements Document) files in markdown format
-- Review any documentation directories like /docs or /documentation
-- Check for design documents that may provide project context
-- Look for architectural diagrams or explanations in markdown
-- Reference coding standards or style guides defined in project docs
-- Follow specific project conventions defined in documentation
-- Use information from documentation to guide implementation choices
-- Respect security guidelines outlined in SECURITY.md
-- Consider roadmap information from project planning documents
+Application Structure:
+- Implement proper OOP approach with classes
+- Create clear separation of UI and logic
+- Use appropriate frame and window hierarchies
+- Implement proper application initialization
+- Create efficient event loop handling
+- Use appropriate design patterns for Tkinter
+- Create reusable GUI components
 
 Layout and Design:
 - Choose appropriate containers (Frame, LabelFrame, etc.)

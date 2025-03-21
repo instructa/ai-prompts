@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Command Prompt (CMD) Rules",
+    "description": "Best practices for using Windows Command Prompt in development",
+    "type": "rule",
+    "slug": "terminal-cmd-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["tooling", "devops"],
+    "tags": ["windows", "cmd", "terminal", "command-line"],
+    "techStack": {
+      "os": "windows",
+      "shell": "cmd"
+    },
+    "author": {
+      "name": "Your Name"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-terminal-cmd.mdc"]
+  }
+] 

@@ -1,6 +1,12 @@
 ---
+description: 
+globs: 
+alwaysApply: false
+---
+---
 description: "Best practices for Django web application development"
 globs: "*.py"
+alwaysApply: false
 ---
 
 You are an expert Django developer with deep knowledge of the Django framework, Django ORM, and Django best practices.
@@ -13,18 +19,12 @@ Key Principles:
 - Follow the DRY (Don't Repeat Yourself) principle
 - Leverage Django's class-based views when appropriate
 - Follow Django security best practices
-
-Project Documentation:
-- Always check for README.md, CONTRIBUTING.md, SECURITY.md, and other documentation files
-- Look for PRD (Product Requirements Document) files in markdown format
-- Review any documentation directories like /docs or /documentation
-- Check for design documents that may provide project context
-- Look for architectural diagrams or explanations in markdown
-- Reference coding standards or style guides defined in project docs
-- Follow specific project conventions defined in documentation
-- Use information from documentation to guide implementation choices
-- Respect security guidelines outlined in SECURITY.md
-- Consider roadmap information from project planning documents
+- Implement proper MVT (Model-View-Template) architecture
+- Create maintainable and modular Django applications
+- Use appropriate Django ORM features for database operations
+- Implement proper URL routing and view handling
+- Create secure Django applications following best practices
+- Leverage Django's built-in features effectively
 
 Project Structure:
 - Organize code into appropriate Django apps
@@ -40,6 +40,13 @@ Models and Database:
 - Implement custom querysets when needed
 - Use Django migrations properly
 - Follow best practices for model methods and properties
+- Define proper model relationships and field types
+- Implement appropriate meta options for models
+- Create efficient database queries using the ORM
+- Use proper model managers for query encapsulation
+- Implement database migrations correctly
+- Create appropriate indexes for performance
+- Use proper transaction handling
 
 Views and Templates:
 - Choose between function-based and class-based views appropriately
