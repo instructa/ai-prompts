@@ -7,15 +7,19 @@
     "development_process": ["implement", "test"],
     "dev_categories": ["tooling", "devops"],
     "tags": ["linux", "macos", "bash", "shell", "terminal", "command-line"],
-    "techStack": {
-      "os": ["linux", "macos"],
-      "shell": "bash"
+    "tech_stack": {
+      "framework": "shell",
+      "service": ["linux", "macos"],
+      "library": "bash"
     },
     "author": {
-      "name": "Your Name"
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
     },
     "model": ["reasoning", "chat"],
     "version": "1.0",
+    "published": true,
     "files": ["rule-terminal-bash.mdc"]
   }
 ] 

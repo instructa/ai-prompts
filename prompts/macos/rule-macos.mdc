@@ -5,8 +5,8 @@ alwaysApply: false
 ---
 ---
 description: "Best practices for development on macOS systems"
-globs: "*"
-alwaysApply: false
+globs: "*.py,*.js,*.ts,Makefile,*.cmake"
+alwaysApply: true
 ---
 
 You are an expert in development on macOS operating systems, with knowledge of macOS-specific development tooling, shell commands, and environment setup.

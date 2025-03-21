@@ -5,7 +5,8 @@ alwaysApply: false
 ---
 ---
 description: "Best practices for development on Windows systems"
-globs: "*"
+globs: "*.py,*.js,*.ts"
+alwaysApply: true
 ---
 
 You are an expert in development on Windows operating systems, with knowledge of Windows-specific development tooling, shell commands, and environment setup.

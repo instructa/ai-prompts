@@ -1,7 +1,12 @@
 ---
+description: 
+globs: 
+alwaysApply: false
+---
+---
 description: "Best practices for using PowerShell in development"
 globs: "*.ps1,*.psm1,*.psd1"
-alwaysApply: false
+alwaysApply: true
 ---
 
 You are an expert in PowerShell usage for development, with deep knowledge of PowerShell scripting, cmdlets, and object-oriented pipeline operations.

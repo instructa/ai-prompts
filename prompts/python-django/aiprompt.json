@@ -1,246 +1,45 @@
 [
-    {
-      "name": "Django Framework Rules",
-      "description": "Best practices for Django web application development",
-      "type": "rule",
-      "slug": "django-rules",
-      "development_process": ["implement", "test"],
-      "dev_categories": ["backend", "api", "db"],
-      "tags": ["python", "django", "web-development"],
-      "techStack": {
-        "language": "python",
-        "framework": "django"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-django.mdc"]
+  {
+    "name": "Django Framework Rules",
+    "description": "Best practices for Django web application development",
+    "type": "rule",
+    "slug": "django-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "api", "db"],
+    "tags": ["python", "django", "web-development"],
+    "tech_stack": {
+      "framework": "django"
     },
-    {
-      "name": "Django REST Framework Rules",
-      "description": "Best practices for building APIs with Django REST Framework",
-      "type": "rule",
-      "slug": "django-rest-framework-rules",
-      "development_process": ["implement", "test"],
-      "dev_categories": ["backend", "api"],
-      "tags": ["python", "django", "rest", "api"],
-      "techStack": {
-        "language": "python",
-        "framework": "django"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-django-rest-framework.mdc"]
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
     },
-    {
-      "name": "Python Core Rules",
-      "description": "Coding standards and best practices for Python development",
-      "type": "rule",
-      "slug": "python-core-rules",
-      "development_process": ["plan", "implement", "test"],
-      "dev_categories": ["backend", "api", "documentation"],
-      "tags": ["python", "best-practices", "coding-standards"],
-      "techStack": {
-        "language": "python"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-python-core.mdc"]
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-django.mdc"]
+  },
+  {
+    "name": "Django REST Framework Rules",
+    "description": "Best practices for building APIs with Django REST Framework",
+    "type": "rule",
+    "slug": "django-rest-framework-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "api"],
+    "tags": ["python", "django", "rest", "api"],
+    "tech_stack": {
+      "framework": "django",
+      "library": "django-rest-framework" 
     },
-    {
-      "name": "Flask Framework Rules",
-      "description": "Best practices for Flask web application development",
-      "type": "rule",
-      "slug": "flask-rules",
-      "development_process": ["implement", "test"],
-      "dev_categories": ["backend", "api"],
-      "tags": ["python", "flask", "web-development"],
-      "techStack": {
-        "language": "python",
-        "framework": "flask"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-flask.mdc"]
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
     },
-    {
-      "name": "FastAPI Framework Rules",
-      "description": "Best practices for FastAPI web application development",
-      "type": "rule",
-      "slug": "fastapi-rules",
-      "development_process": ["implement", "test"],
-      "dev_categories": ["backend", "api"],
-      "tags": ["python", "fastapi", "web-development", "async"],
-      "techStack": {
-        "language": "python",
-        "framework": "fastapi"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-fastapi.mdc"]
-    },
-    {
-      "name": "Tkinter GUI Rules",
-      "description": "Best practices for Python Tkinter GUI development",
-      "type": "rule",
-      "slug": "tkinter-rules",
-      "development_process": ["implement", "test"],
-      "dev_categories": ["frontend"],
-      "tags": ["python", "tkinter", "gui", "desktop"],
-      "techStack": {
-        "language": "python",
-        "framework": "tkinter"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-tkinter.mdc"]
-    },
-    {
-      "name": "CustomTkinter GUI Rules",
-      "description": "Best practices for Python CustomTkinter GUI development",
-      "type": "rule",
-      "slug": "customtkinter-rules",
-      "development_process": ["implement", "test"],
-      "dev_categories": ["frontend"],
-      "tags": ["python", "customtkinter", "gui", "desktop", "modern-ui"],
-      "techStack": {
-        "language": "python",
-        "framework": "customtkinter"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-customtkinter.mdc"]
-    },
-    {
-      "name": "PyQt/PySide GUI Rules",
-      "description": "Best practices for PyQt/PySide GUI development",
-      "type": "rule",
-      "slug": "pyqt-rules",
-      "development_process": ["implement", "test"],
-      "dev_categories": ["frontend"],
-      "tags": ["python", "pyqt", "pyside", "gui", "desktop", "qt"],
-      "techStack": {
-        "language": "python",
-        "framework": "pyqt"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-pyqt.mdc"]
-    },
-    {
-      "name": "Data Science Stack Rules",
-      "description": "Best practices for Python data science with pandas, NumPy, scikit-learn",
-      "type": "rule",
-      "slug": "data-science-rules",
-      "development_process": ["implement", "test"],
-      "dev_categories": ["backend", "data"],
-      "tags": ["python", "data-science", "pandas", "numpy", "scikit-learn"],
-      "techStack": {
-        "language": "python"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-data-science.mdc"]
-    },
-    {
-      "name": "Pandas Rules",
-      "description": "Best practices for data manipulation with pandas",
-      "type": "rule",
-      "slug": "pandas-rules",
-      "development_process": ["implement", "test"],
-      "dev_categories": ["data"],
-      "tags": ["python", "pandas", "data-manipulation"],
-      "techStack": {
-        "language": "python",
-        "library": "pandas"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-pandas.mdc"]
-    },
-    {
-      "name": "Scikit-learn Rules",
-      "description": "Best practices for machine learning with scikit-learn",
-      "type": "rule",
-      "slug": "scikit-learn-rules",
-      "development_process": ["implement", "test"],
-      "dev_categories": ["data", "ml"],
-      "tags": ["python", "scikit-learn", "machine-learning"],
-      "techStack": {
-        "language": "python",
-        "library": "scikit-learn"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-scikit-learn.mdc"]
-    },
-    {
-      "name": "Web Scraping Stack Rules",
-      "description": "Best practices for web scraping with Python using requests, BeautifulSoup, and Scrapy",
-      "type": "rule",
-      "slug": "web-scraping-rules",
-      "development_process": ["implement", "test"],
-      "dev_categories": ["backend", "data"],
-      "tags": ["python", "web-scraping", "requests", "beautifulsoup", "scrapy"],
-      "techStack": {
-        "language": "python"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-web-scraping.mdc"]
-    },
-    {
-      "name": "Scrapy Rules",
-      "description": "Best practices for web scraping with Scrapy",
-      "type": "rule",
-      "slug": "scrapy-rules",
-      "development_process": ["implement", "test"],
-      "dev_categories": ["backend", "data"],
-      "tags": ["python", "web-scraping", "scrapy"],
-      "techStack": {
-        "language": "python",
-        "library": "scrapy"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "model": ["reasoning", "chat"],
-      "version": "1.0",
-      "files": ["rule-scrapy.mdc"]
-    }
-  ]
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-django-rest-framework.mdc"]
+  }
+]

@@ -7,14 +7,18 @@
     "development_process": ["plan", "implement", "test", "deploy"],
     "dev_categories": ["backend", "frontend", "devops"],
     "tags": ["cross-platform", "windows", "development"],
-    "techStack": {
-      "os": "windows"
+    "tech_stack": {
+      "framework": "cross-platform",
+      "service": "windows"
     },
     "author": {
-      "name": "Your Name"
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
     },
     "model": ["reasoning", "chat"],
     "version": "1.0",
+    "published": true,
     "files": ["rule-cross-platform-windows-dev.mdc"]
   }
-] 
+]

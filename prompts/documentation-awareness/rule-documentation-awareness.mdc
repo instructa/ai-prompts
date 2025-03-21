@@ -1,12 +1,7 @@
 ---
-description: 
-globs: 
-alwaysApply: false
----
----
 description: "Best practices for analyzing and following project documentation"
-globs: "*"
-alwaysApply: false
+globs: "*.md,README*,CONTRIBUTING*,*.docs,docs/*,wiki/*"
+alwaysApply: true
 ---
 
 You are an expert in project documentation analysis, with deep knowledge of how to locate, interpret, and apply guidance from project documentation to ensure consistency and adherence to project standards.

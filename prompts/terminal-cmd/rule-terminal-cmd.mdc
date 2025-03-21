@@ -1,7 +1,12 @@
 ---
+description: 
+globs: 
+alwaysApply: false
+---
+---
 description: "Best practices for using Windows Command Prompt in development"
 globs: "*.bat,*.cmd"
-alwaysApply: false
+alwaysApply: true
 ---
 
 You are an expert in Windows Command Prompt (CMD) usage for development, with deep knowledge of CMD syntax, batch scripting, and Windows command-line utilities.

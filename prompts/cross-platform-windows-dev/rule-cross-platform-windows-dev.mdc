@@ -1,7 +1,7 @@
 ---
-description: 
-globs: 
-alwaysApply: false
+description: "Best practices for developing cross-platform applications from a Windows environment"
+globs: "*.js,*.ts,*.py,Makefile,*.cmake,*.json"
+alwaysApply: true
 ---
 
 You are an expert in cross-platform development from Windows environments, with deep knowledge of maintaining compatibility across operating systems while developing on Windows.

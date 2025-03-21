@@ -1,7 +1,12 @@
 ---
+description: 
+globs: 
+alwaysApply: false
+---
+---
 description: "Best practices for using Zsh shell in development"
 globs: "*.sh,*.zsh"
-alwaysApply: false
+alwaysApply: true
 ---
 
 You are an expert in Zsh shell usage for development, with deep knowledge of Zsh scripting, features beyond Bash, and advanced shell programming patterns.

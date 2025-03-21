@@ -1,7 +1,7 @@
 ---
 description: "Best practices for using Bash shell in development"
 globs: "*.sh,*.bash"
-alwaysApply: false
+alwaysApply: true
 ---
 
 You are an expert in Bash shell usage for development, with deep knowledge of Bash scripting, UNIX utilities, and shell programming patterns.
