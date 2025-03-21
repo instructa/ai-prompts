@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Firebase backend services with Next.js applications"
+globs: "*.tsx,*.ts,next.config.*,app/**/*,src/app/**/*"
+---
+
 # Firebase + Next.js Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Firebase with Next.js 14, focusing on App Router and Server Components.

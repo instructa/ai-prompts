@@ -20,6 +20,6 @@
     "model": ["reasoning", "chat"],
     "version": "1.0",
     "published": true,
-    "files": ["rule-terminal-bash.mdc"]
+    "files": ["rule-terminal-bash.md"]
   }
 ] 

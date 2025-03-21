@@ -19,6 +19,6 @@
     "model": ["reasoning", "chat"],
     "version": "1.0",
     "published": true,
-    "files": ["rule-python-deployment.mdc"]
+    "files": ["rule-python-deployment.md"]
   }
 ]

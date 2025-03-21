@@ -19,6 +19,6 @@
     "model": ["reasoning", "chat"],
     "version": "1.0",
     "published": true,
-    "files": ["rule-cross-platform-windows-dev.mdc"]
+    "files": ["rule-cross-platform-windows-dev.md"]
   }
 ]

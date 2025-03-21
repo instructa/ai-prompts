@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Express.js Rules",
+    "description": "Best practices for Express.js web application development",
+    "type": "rule",
+    "slug": "expressjs-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "web", "api"],
+    "tags": ["expressjs", "nodejs", "javascript", "web-framework"],
+    "tech_stack": {
+      "framework": "expressjs"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-expressjs.md"]
+  }
+]

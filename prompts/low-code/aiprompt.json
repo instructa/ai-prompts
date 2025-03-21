@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Low-Code/No-Code Development",
+    "description": "Best practices for low-code and no-code development platforms",
+    "type": "rule",
+    "slug": "low-code-no-code-development",
+    "published": true,
+    "tech_stack": {
+      "language": "javascript",
+      "framework": "web"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-bubble.md",
+      "rule-retool.md",
+      "rule-webflow.md"
+    ]
+  }
+]

@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Drizzle ORM with Vue 3 applications"
+globs: "*.vue,*.ts,vite.config.*,src/**/*,composables/**/*"
+---
+
 # Drizzle + Vue Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Drizzle ORM with a Vue 3 application.

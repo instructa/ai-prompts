@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Godot Engine Rules",
+    "description": "Best practices for game development with Godot Engine",
+    "type": "rule",
+    "slug": "godot-rules",
+    "development_process": ["design", "implement", "test"],
+    "dev_categories": ["game-development"],
+    "tags": ["game-development", "godot", "gdscript"],
+    "tech_stack": {
+      "framework": "godot"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-godot.md"]
+  },
+  {
+    "name": "Unreal Engine Rules",
+    "description": "Best practices for game development with Unreal Engine",
+    "type": "rule",
+    "slug": "unreal-engine-rules",
+    "development_process": ["design", "implement", "test"],
+    "dev_categories": ["game-development"],
+    "tags": ["game-development", "unreal-engine", "c++", "blueprints"],
+    "tech_stack": {
+      "framework": "unreal-engine",
+      "language": "c++"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-unreal-engine.md"]
+  },
+  {
+    "name": "Unity Engine Rules",
+    "description": "Best practices for game development with Unity Engine",
+    "type": "rule",
+    "slug": "unity-rules",
+    "development_process": ["design", "implement", "test"],
+    "dev_categories": ["game-development"],
+    "tags": ["game-development", "unity", "c#"],
+    "tech_stack": {
+      "framework": "unity",
+      "language": "csharp"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-unity.md"]
+  },
+  {
+    "name": "Pygame Rules",
+    "description": "Best practices for developing games with the Pygame library in Python",
+    "type": "rule",
+    "slug": "pygame-rules",
+    "development_process": ["design", "implement", "test"],
+    "dev_categories": ["game-development"],
+    "tags": ["game-development", "pygame", "python"],
+    "tech_stack": {
+      "framework": "pygame",
+      "language": "python"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-pygame.md"]
+  }
+]

@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Prisma ORM with JavaScript applications"
+globs: "*.js,*.mjs,*.cjs"
+---
+
 # Prisma with JavaScript Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Prisma ORM with a JavaScript application.

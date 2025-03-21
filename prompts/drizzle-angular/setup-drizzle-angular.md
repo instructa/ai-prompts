@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Drizzle ORM with Angular applications"
+globs: "*.component.ts,*.service.ts,*.module.ts,environment.ts,*.angular.json,angular.json"
+---
+
 # Drizzle + Angular Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Drizzle ORM with an Angular application.

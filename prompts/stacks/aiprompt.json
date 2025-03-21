@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Technology Stack Combinations",
+    "description": "Best practices for working with various technology stack combinations",
+    "type": "rule",
+    "slug": "technology-stack-combinations",
+    "published": true,
+    "tech_stack": {
+      "language": "mixed",
+      "framework": "mixed"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-lamp-stack.md",
+      "rule-lamp-mariadb-stack.md",
+      "rule-lemp-stack.md",
+      "rule-lemp-mariadb-stack.md",
+      "rule-jamstack.md",
+      "rule-headless-cms-frontend.md",
+      "rule-python-datascience-stack.md",
+      "rule-python-ml-stack.md"
+    ]
+  }
+]

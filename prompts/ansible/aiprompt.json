@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Ansible Rules",
+    "description": "Best practices for Ansible infrastructure as code and automation",
+    "type": "rule",
+    "slug": "ansible-rules",
+    "development_process": ["implement", "deploy"],
+    "dev_categories": ["devops", "automation", "infrastructure"],
+    "tags": ["ansible", "iac", "configuration-management", "automation"],
+    "tech_stack": {
+      "framework": "ansible"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-ansible.md"]
+  }
+]

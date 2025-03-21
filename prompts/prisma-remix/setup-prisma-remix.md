@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Prisma ORM with Remix applications"
+globs: "*.tsx,*.ts,app/**/*,server/**/*,remix.config.*"
+---
+
 # Prisma with Remix Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Prisma ORM with a Remix application.

@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Firebase backend services with Remix applications"
+globs: "*.tsx,*.ts,app/**/*,server/**/*,remix.config.*"
+---
+
 # Firebase + Remix Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Firebase with a Remix application.

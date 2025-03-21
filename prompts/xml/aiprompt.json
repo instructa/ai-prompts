@@ -1,0 +1,23 @@
+[
+  {
+    "name": "XML Rules",
+    "description": "Best practices for XML document structure and processing",
+    "type": "rule",
+    "slug": "xml-rules",
+    "development_process": ["implement"],
+    "dev_categories": ["web", "data", "configuration"],
+    "tags": ["xml", "markup", "data-format"],
+    "tech_stack": {
+      "framework": "xml"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-xml.md"]
+  }
+]

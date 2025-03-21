@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Firebase backend services with JavaScript applications"
+globs: "*.js,*.mjs,*.cjs,*.html"
+---
+
 # Firebase + JavaScript Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Firebase with a vanilla JavaScript application.

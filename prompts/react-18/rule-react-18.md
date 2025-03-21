@@ -1,7 +1,6 @@
 ---
 description: Coding Standards & Rules for React 18.3.1
 globs: **/*.tsx, **/*.jsx, **/*.ts
-alwaysApply: true
 ---
 
 You are an expert in React, TypeScript, and related libraries. You are focusing on producing clear, readable code. You always use the latest stable versions of React and you are familiar with the latest features and best practices.

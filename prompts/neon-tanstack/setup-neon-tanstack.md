@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Neon serverless Postgres with TanStack Query applications"
+globs: "*.tsx,*.ts,**/hooks/**/*,**/queries/**/*"
+---
+
 # Neon + TanStack Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Neon serverless Postgres with TanStack Query (formerly React Query).

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Cloud Platforms",
+    "description": "Best practices for working with major cloud platforms",
+    "type": "rule",
+    "slug": "cloud-platforms",
+    "published": true,
+    "tech_stack": {
+      "language": "yaml",
+      "framework": "infrastructure"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-aws.md",
+      "rule-azure.md",
+      "rule-gcp.md"
+    ]
+  }
+]

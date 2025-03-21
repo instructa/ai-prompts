@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Neon serverless Postgres with Next.js applications"
+globs: "*.tsx,*.ts,next.config.*,app/**/*,src/app/**/*"
+---
+
 # Neon + Next.js Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Neon serverless Postgres with a Next.js 14 application.

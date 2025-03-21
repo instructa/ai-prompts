@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Firebase backend services with TanStack Query applications"
+globs: "*.tsx,*.ts,**/hooks/**/*,**/queries/**/*"
+---
+
 # Firebase + TanStack Query Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Firebase with TanStack Query (formerly React Query) in a React application.

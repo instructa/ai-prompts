@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Prisma ORM with Angular applications"
+globs: "*.component.ts,*.service.ts,*.module.ts,environment.ts,*.angular.json,angular.json"
+---
+
 # Prisma with Angular Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Prisma ORM with an Angular application.

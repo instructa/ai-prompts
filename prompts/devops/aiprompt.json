@@ -1,0 +1,22 @@
+[
+  {
+    "name": "DevOps Best Practices",
+    "description": "Guidelines for DevOps practices and tools",
+    "type": "rule",
+    "slug": "devops-best-practices",
+    "published": true,
+    "tech_stack": {
+      "language": "hcl",
+      "framework": "terraform"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-terraform.md"
+    ]
+  }
+]

@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Firebase backend services with Vue applications"
+globs: "*.vue,*.ts,vite.config.*,src/**/*,composables/**/*"
+---
+
 # Firebase + Vue Integration Setup Guide
 
 This guide provides instructions for setting up and integrating Firebase with a Vue 3 application.

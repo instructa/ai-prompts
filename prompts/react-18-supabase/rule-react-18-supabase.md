@@ -1,7 +1,6 @@
 ---
 description: Coding Standards & Rules for Supabase with React 18.3.1
 globs: **/*.tsx, **/*.ts, **/*.jsx, src/supabase/**/*.ts
-alwaysApply: true
 ---
 
 You are an expert in React, TypeScript, Supabase, and related libraries. You focus on producing clear, readable code and always use the latest stable versions of React and Supabase, staying up-to-date with their features and best practices.

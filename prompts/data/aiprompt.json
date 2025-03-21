@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Data Engineering",
+    "description": "Best practices for data engineering tools and technologies",
+    "type": "rule",
+    "slug": "data-engineering",
+    "published": true,
+    "tech_stack": {
+      "language": "python",
+      "framework": "python-core"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "version": "1.0.0",
+    "files": [
+      "rule-airflow.md",
+      "rule-spark.md",
+      "rule-dask.md",
+      "rule-kafka.md"
+    ]
+  }
+]

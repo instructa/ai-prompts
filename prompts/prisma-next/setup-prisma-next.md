@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Prisma ORM with Next.js applications"
+globs: "*.tsx,*.ts,next.config.*,app/**/*,src/app/**/*"
+---
+
 # Prisma with Next.js Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Prisma ORM with a Next.js application.

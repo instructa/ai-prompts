@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Ruby on Rails Rules",
+    "description": "Best practices for Ruby on Rails application development",
+    "type": "rule",
+    "slug": "rubyonrails-rules",
+    "development_process": ["implement", "test"],
+    "dev_categories": ["backend", "web", "fullstack"],
+    "tags": ["ruby", "rails", "ruby-on-rails", "mvc"],
+    "tech_stack": {
+      "framework": "rails"
+    },
+    "author": {
+      "name": "cpjet64",
+      "url": "https://github.com/cpjet64",
+      "avatar": "https://avatars.githubusercontent.com/u/38527447?v=4"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "published": true,
+    "files": ["rule-rubyonrails.md"]
+  }
+]

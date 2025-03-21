@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Prisma ORM with TanStack Query applications"
+globs: "*.tsx,*.ts,**/hooks/**/*,**/queries/**/*"
+---
+
 # Prisma with TanStack Query Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Prisma ORM with TanStack Query (formerly React Query) in a React application.

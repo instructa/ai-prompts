@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Firebase backend services with Nuxt applications"
+globs: "*.vue,*.ts,nuxt.config.*,server/**/*,composables/**/*"
+---
+
 # Firebase + Nuxt Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Firebase with Nuxt 3 using VueFire.

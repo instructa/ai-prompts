@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Prisma ORM with Nuxt applications"
+globs: "*.vue,*.ts,nuxt.config.*,server/**/*,composables/**/*"
+---
+
 # Prisma with Nuxt.js Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Prisma ORM with a Nuxt.js application.

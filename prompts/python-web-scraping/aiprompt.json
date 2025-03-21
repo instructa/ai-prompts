@@ -19,7 +19,7 @@
     "model": ["reasoning", "chat"],
     "version": "1.0",
     "published": true,
-    "files": ["rule-web-scraping.mdc"]
+    "files": ["rule-web-scraping.md"]
   },
   {
     "name": "BeautifulSoup Rules",
@@ -41,7 +41,7 @@
     "model": ["reasoning", "chat"],
     "version": "1.0",
     "published": true,
-    "files": ["rule-beautifulsoup.mdc"]
+    "files": ["rule-beautifulsoup.md"]
   },
   {
     "name": "Scrapy Rules",
@@ -62,6 +62,6 @@
     "model": ["reasoning", "chat"],
     "version": "1.0",
     "published": true,
-    "files": ["rule-scrapy.mdc"]
+    "files": ["rule-scrapy.md"]
   }
 ]

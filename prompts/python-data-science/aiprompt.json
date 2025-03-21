@@ -19,7 +19,7 @@
     "model": ["reasoning", "chat"],
     "version": "1.0",
     "published": true,
-    "files": ["rule-data-science.mdc"]
+    "files": ["rule-data-science.md"]
   },
   {
     "name": "Pandas Rules",
@@ -41,7 +41,7 @@
     "model": ["reasoning", "chat"],
     "version": "1.0",
     "published": true,
-    "files": ["rule-pandas.mdc"]
+    "files": ["rule-pandas.md"]
   },
   {
     "name": "NumPy Rules",
@@ -63,6 +63,6 @@
     "model": ["reasoning", "chat"],
     "version": "1.0",
     "published": true,
-    "files": ["rule-numpy.mdc"]
+    "files": ["rule-numpy.md"]
   }
 ]

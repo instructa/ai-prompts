@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Neon serverless Postgres with Remix applications"
+globs: "*.tsx,*.ts,app/**/*,server/**/*,remix.config.*"
+---
+
 # Neon + Remix Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Neon serverless Postgres with a Remix application.

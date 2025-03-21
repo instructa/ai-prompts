@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Drizzle ORM with JavaScript applications"
+globs: "*.js,*.mjs,*.cjs"
+---
+
 # Drizzle + JavaScript Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Drizzle ORM with a vanilla JavaScript application.

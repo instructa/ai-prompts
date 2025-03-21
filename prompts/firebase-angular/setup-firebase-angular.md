@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Firebase backend services with Angular applications"
+globs: "*.component.ts,*.service.ts,*.module.ts,environment.ts,*.angular.json,angular.json"
+---
+
 # Firebase + Angular Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Firebase with an Angular application.

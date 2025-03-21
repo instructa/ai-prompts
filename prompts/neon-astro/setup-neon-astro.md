@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Neon serverless Postgres with Astro applications"
+globs: "*.astro,*.ts,astro.config.*,env.d.ts"
+---
+
 # Neon + Astro Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Neon serverless Postgres with an Astro application.

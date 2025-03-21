@@ -18,6 +18,6 @@
       "model": ["reasoning", "chat"],
       "version": "1.0",
       "published": true,
-      "files": ["rule-python-core.mdc"]
+      "files": ["rule-python-core.md"]
     }
   ]

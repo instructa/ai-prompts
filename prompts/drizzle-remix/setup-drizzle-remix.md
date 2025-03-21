@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Drizzle ORM with Remix applications"
+globs: "*.tsx,*.ts,app/**/*,server/**/*,remix.config.*"
+---
+
 # Drizzle + Remix Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Drizzle ORM with a Remix application.

@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Prisma ORM with Vue applications"
+globs: "*.vue,*.ts,vite.config.*,src/**/*,composables/**/*"
+---
+
 # Prisma with Vue.js Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Prisma ORM with a Vue.js application.

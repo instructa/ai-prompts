@@ -18,7 +18,7 @@
     "model": ["reasoning", "chat"],
     "version": "1.0",
     "published": true,
-    "files": ["rule-django.mdc"]
+    "files": ["rule-django.md"]
   },
   {
     "name": "Django REST Framework Rules",
@@ -40,6 +40,6 @@
     "model": ["reasoning", "chat"],
     "version": "1.0",
     "published": true,
-    "files": ["rule-django-rest-framework.mdc"]
+    "files": ["rule-django-rest-framework.md"]
   }
 ]

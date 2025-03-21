@@ -1,3 +1,8 @@
+---
+description: "Guidelines for integrating Drizzle ORM with TanStack Query applications"
+globs: "*.tsx,*.ts,**/hooks/**/*,**/queries/**/*"
+---
+
 # Drizzle + TanStack Integration Setup Guide
 
 This guide provides step-by-step instructions for integrating Drizzle ORM with TanStack Query (formerly React Query).
