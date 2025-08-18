@@ -1,0 +1,10 @@
+name: junit-write-prompt
+description: Prompt to fix JUnit test errors in Java Spring Boot applications using CodeLlama
+version: 1.0.0
+tags:
+  - java
+  - junit
+  - testing
+  - codellama
+prompt: |
+ Using @file: write junits for @codeContext:
