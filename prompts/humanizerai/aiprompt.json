@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Humanizer AI - Text Humanization",
+    "description": "Detect AI-generated text and humanize it to bypass AI detectors like GPTZero and Turnitin. Useful for cleaning up AI-generated docs, comments, and content.",
+    "type": "skill",
+    "slug": "humanizerai-text-humanization",
+    "development_process": ["implement", "review"],
+    "dev_categories": ["documentation", "content"],
+    "tags": ["ai-detection", "humanization", "writing", "content", "documentation"],
+    "tech_stack": {
+      "framework": "any"
+    },
+    "ai_editor": ["cursor", "claude-code", "windsurf", "codex"],
+    "author": {
+      "name": "humanizerai",
+      "url": "https://github.com/humanizerai",
+      "avatar": "https://avatars.githubusercontent.com/u/humanizerai"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-humanizerai.md"],
+    "published": true,
+    "links": {
+      "website": "https://humanizerai.com",
+      "github": "https://github.com/humanizerai/agent-skills",
+      "install": "npx skills add humanizerai/agent-skills"
+    }
+  }
+]
