@@ -1,0 +1,162 @@
+---
+description: Expert guidance for using dbt with the Snowflake adapter including dynamic tables, incremental models, and Snowflake-specific configs
+globs: "**/*.sql, **/*.yml, **/*.yaml"
+---
+
+# Snowflake dbt Integration
+
+## Setup
+
+Install: `pip install dbt-snowflake`
+
+### profiles.yml
+
+```yaml
+my_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: myaccount
+      user: myuser
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: transformer
+      database: analytics
+      warehouse: transforming
+      schema: public
+      threads: 4
+```
+
+Verify: `dbt debug`
+
+## Materializations
+
+Snowflake supports all standard materializations plus Snowflake-specific ones:
+
+- **view** (default) — CREATE VIEW
+- **table** — CREATE TABLE AS SELECT
+- **incremental** — MERGE or INSERT/DELETE pattern
+- **ephemeral** — CTE, not materialized
+- **dynamic_table** — Snowflake Dynamic Table (auto-refreshing)
+
+## Dynamic Tables in dbt
+
+```sql
+-- models/my_dynamic_table.sql
+{{
+  config(
+    materialized='dynamic_table',
+    snowflake_warehouse='transforming',
+    target_lag='1 hour'
+  )
+}}
+SELECT
+  customer_id,
+  SUM(amount) AS lifetime_value,
+  MAX(order_date) AS last_order_date
+FROM {{ ref('stg_orders') }}
+GROUP BY 1
+```
+
+With clustering (dbt-snowflake 1.11+):
+
+```sql
+{{ config(materialized='dynamic_table', target_lag='5 minutes', cluster_by=['session_start', 'user_id']) }}
+```
+
+## Incremental Models
+
+```sql
+{{
+  config(
+    materialized='incremental',
+    unique_key='event_id',
+    incremental_strategy='merge',
+    on_schema_change='sync_all_columns'
+  )
+}}
+SELECT * FROM {{ ref('stg_events') }}
+{% if is_incremental() %}
+  WHERE event_timestamp > (SELECT MAX(event_timestamp) FROM {{ this }})
+{% endif %}
+```
+
+## Snowflake-Specific Configurations
+
+```sql
+-- Cluster keys (for very large tables):
+{{ config(materialized='table', cluster_by=['event_date', 'region']) }}
+
+-- Transient tables (no Fail-safe, lower storage cost):
+{{ config(materialized='table', transient=true) }}
+
+-- Query tags (for workload attribution and cost tracking):
+{{ config(query_tag='finance_team_daily') }}
+
+-- Copy grants (preserve access when replacing objects):
+{{ config(copy_grants=true) }}
+
+-- Warehouse override per model:
+{{ config(snowflake_warehouse='large_wh') }}
+
+-- Secure views:
+{{ config(materialized='view', secure=true) }}
+```
+
+## Sources with Freshness
+
+```yaml
+# models/staging/_sources.yml
+sources:
+  - name: raw
+    database: raw_db
+    schema: jaffle_shop
+    tables:
+      - name: customers
+        loaded_at_field: _loaded_at
+        freshness:
+          warn_after: {count: 12, period: hour}
+          error_after: {count: 24, period: hour}
+```
+
+Reference: `{{ source('raw', 'customers') }}`
+
+## Testing
+
+```yaml
+# models/staging/schema.yml
+models:
+  - name: stg_customers
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+```
+
+## Common Commands
+
+- `dbt run` — Run all models
+- `dbt run --select my_model+` — Run model and all downstream
+- `dbt run --select +my_model` — Run model and all upstream
+- `dbt test` — Run all tests
+- `dbt build` — Run + test in dependency order
+- `dbt source freshness` — Check source data freshness
+
+## Best Practices
+
+- Use staging models (stg_*) to rename and type-cast source columns.
+- Use intermediate models for complex joins and business logic.
+- Use mart models for final business-facing tables.
+- Use incremental models for fact tables; use dynamic_table for streaming/near-real-time.
+- Set `on_schema_change='sync_all_columns'` on incremental models to handle schema evolution.
+- Use `copy_grants=true` to avoid permission issues when dbt replaces objects.
+- Use separate warehouses for dbt runs vs. analyst queries.
+
+## Anti-Patterns
+
+- Do NOT use `{{ this }}` without `{% if is_incremental() %}` guard.
+- Do NOT set cluster_by on small tables (< 1TB) — Snowflake auto-clusters well.
+- Do NOT use `materialized='table'` for everything — views are free and often sufficient.
+- Do NOT hardcode database/schema names — use `{{ ref() }}` and `{{ source() }}`.
+- Do NOT skip `dbt test` — data quality issues compound downstream.

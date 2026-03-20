@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Snowflake Cortex AI",
+    "description": "Expert guidance for Cortex AI Functions (AI_COMPLETE, AI_CLASSIFY, AI_EXTRACT, etc.) and Cortex Search for RAG applications in Snowflake",
+    "type": "rule",
+    "slug": "snowflake-cortex-rule",
+    "development_process": ["plan", "implement", "test"],
+    "dev_categories": ["backend", "db", "ai"],
+    "tags": ["ai", "llm", "cortex", "unstructured-data", "document-intelligence"],
+    "techStack": {
+      "framework": "cortex",
+      "service": "snowflake"
+    },
+    "ai_editor": ["cursor", "windsurf", "cline", "copilot", "zed"],
+    "author": {
+      "name": "Snowflake DevRel",
+      "url": "https://github.com/Snowflake-Labs"
+    },
+    "model": ["reasoning", "chat"],
+    "version": "1.0",
+    "files": ["rule-snowflake-cortex.mdc"],
+    "published": true
+  }
+]
