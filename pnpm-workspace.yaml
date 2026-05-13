@@ -1,0 +1,9 @@
+minimumReleaseAge: 10080
+minimumReleaseAgeStrict: true
+minimumReleaseAgeIgnoreMissingTime: false
+blockExoticSubdeps: true
+trustPolicy: no-downgrade
+trustPolicyIgnoreAfter: 43200
+dangerouslyAllowAllBuilds: false
+savePrefix: "0"
+allowBuilds: {}
