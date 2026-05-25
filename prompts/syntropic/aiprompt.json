@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Syntropic Development Methodology",
+    "description": "Structured development methodology that scaffolds evergreen rules, hypothesis-driven debugging, and implementation pipelines into AI coding tool instruction files. Works with Claude Code, Cursor, Windsurf, GitHub Copilot, and Codex.",
+    "type": "rule",
+    "slug": "syntropic-development-methodology",
+    "development_process": [
+      "plan",
+      "design",
+      "implement",
+      "test",
+      "deploy"
+    ],
+    "dev_categories": [
+      "frontend",
+      "backend",
+      "documentation"
+    ],
+    "tags": [
+      "methodology",
+      "development-workflow",
+      "best-practices",
+      "cli",
+      "automation"
+    ],
+    "tech_stack": {
+      "framework": "any"
+    },
+    "ai_editor": [
+      "cursor",
+      "copilot",
+      "windsurf",
+      "claude-code"
+    ],
+    "author": {
+      "name": "Peter Cholford",
+      "url": "https://github.com/petercholford-ship-it",
+      "avatar": "https://avatars.githubusercontent.com/u/213792908?v=4"
+    },
+    "model": [
+      "reasoning",
+      "chat"
+    ],
+    "version": "1.0",
+    "files": [
+      "rule-syntropic.md"
+    ],
+    "published": true
+  }
+]
