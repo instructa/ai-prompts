@@ -1,0 +1,146 @@
+---
+description: Expert guidance for Snowflake Cortex AI Functions and Cortex Search for RAG applications
+globs: "**/*.sql, **/*.py"
+---
+
+# Snowflake Cortex AI
+
+## Overview
+
+You are an expert in Snowflake Cortex — the AI layer including Cortex AI Functions (SQL-callable LLM/ML functions) and Cortex Search (managed hybrid search for RAG). All models run inside Snowflake with no data leaving the platform.
+
+## Available AI Functions
+
+Use these names — they are the current versions:
+
+| Function | Purpose |
+|----------|---------|
+| `AI_COMPLETE` | General-purpose LLM completion (text, images, documents) |
+| `AI_CLASSIFY` | Classify text or images into user-defined categories |
+| `AI_FILTER` | Returns TRUE/FALSE for text or image input |
+| `AI_AGG` | Aggregate insights across multiple rows of text |
+| `AI_EMBED` | Generate embedding vectors for similarity search |
+| `AI_EXTRACT` | Extract structured information from text/images/documents |
+| `AI_SENTIMENT` | Extract sentiment score from text |
+| `AI_SUMMARIZE_AGG` | Summarize across multiple rows of text |
+| `AI_SIMILARITY` | Calculate embedding similarity between two inputs |
+| `AI_TRANSCRIBE` | Transcribe audio/video files from stages |
+| `AI_PARSE_DOCUMENT` | Extract text (OCR) or text+layout from documents |
+| `AI_REDACT` | Redact PII from text |
+| `AI_TRANSLATE` | Translate between supported languages |
+
+## Helper Functions
+
+- `TO_FILE('@stage', 'filename')` — Create file reference for AI_COMPLETE document processing.
+- `AI_COUNT_TOKENS(model, text)` — Check token count before calling a model.
+- `PROMPT('template {0}', arg)` — Build prompt objects for AI_COMPLETE.
+- `TRY_COMPLETE` — Like AI_COMPLETE but returns NULL on failure instead of error.
+
+## AI_COMPLETE — The Primary Function
+
+```sql
+-- Simple text completion
+SELECT AI_COMPLETE(
+  MODEL => 'claude-4-sonnet',
+  PROMPT => 'Summarize this review: ' || review_text
+) FROM reviews;
+
+-- Document processing with PROMPT and TO_FILE
+SELECT AI_COMPLETE(
+  MODEL => 'claude-4-sonnet',
+  PROMPT => PROMPT('Extract the invoice total from {0}', TO_FILE('@docs', 'invoice.pdf'))
+);
+
+-- Structured JSON output
+SELECT AI_COMPLETE(
+  MODEL => 'claude-4-sonnet',
+  PROMPT => 'Extract name, email, and company as JSON from: ' || raw_text
+)::VARIANT AS extracted FROM contacts;
+```
+
+Available models: claude-4-opus, claude-4-sonnet, claude-sonnet-4-5, claude-opus-4-5, claude-haiku-4-5, gemini-3-pro, llama3.1-70b, llama3.1-8b, llama3.3-70b, mistral-large2, mistral-small2, deepseek-r1.
+
+## AI_CLASSIFY — Classification
+
+```sql
+SELECT AI_CLASSIFY(ticket_text, ['billing', 'technical', 'account', 'other']) AS category FROM tickets;
+
+-- Multi-label classification
+SELECT AI_CLASSIFY(input, categories, {'output_mode': 'multi'});
+```
+
+## AI_FILTER — Boolean Filtering
+
+```sql
+SELECT * FROM reviews WHERE AI_FILTER(review_text, 'mentions product quality issues');
+```
+
+## AI_AGG — Cross-Row Aggregation
+
+```sql
+SELECT AI_AGG(feedback_text, 'What are the top 3 themes across all feedback?') FROM customer_feedback;
+```
+
+## AI_EXTRACT — Entity Extraction
+
+```sql
+SELECT AI_EXTRACT(email_body, 'meeting date', 'attendees', 'action items') FROM emails;
+```
+
+## AI_SENTIMENT — Sentiment Analysis
+
+```sql
+-- Returns score from -1 (negative) to 1 (positive)
+SELECT review_text, AI_SENTIMENT(review_text) AS sentiment FROM product_reviews;
+```
+
+## AI_EMBED — Vector Embeddings
+
+```sql
+SELECT AI_EMBED(description) AS embedding FROM products;
+```
+
+## AI_PARSE_DOCUMENT — Document OCR and Layout
+
+```sql
+SELECT AI_PARSE_DOCUMENT(
+  TO_FILE('@docs', 'contract.pdf'),
+  MODE => 'LAYOUT'
+) AS parsed_content;
+```
+
+## AI_TRANSCRIBE — Audio/Video Transcription
+
+```sql
+SELECT AI_TRANSCRIBE(TO_FILE('@media', 'call_recording.mp3')) AS transcript;
+```
+
+## AI_REDACT — PII Redaction
+
+```sql
+SELECT AI_REDACT(customer_notes) AS redacted FROM support_cases;
+```
+
+## Key Patterns
+
+- **Process documents**: Use AI_COMPLETE with TO_FILE() and PROMPT() for PDFs, Word docs, spreadsheets.
+- **Batch processing**: AI Functions are optimized for throughput on large SQL tables.
+- **Low-latency**: For interactive use cases, prefer the REST API (Complete API, Embed API, Agents API).
+- **Cortex Guard**: Add guard rails to AI_COMPLETE to filter unsafe content (uses Llama Guard 3).
+
+## Privileges Required
+
+- Users need both `USE AI FUNCTIONS` account privilege AND the `SNOWFLAKE.CORTEX_USER` database role.
+- Both are granted to PUBLIC by default. Revoke from PUBLIC and grant to specific roles for tighter control.
+
+## Cost Awareness
+
+- Cost is based on tokens processed per model. Check token counts with AI_COUNT_TOKENS before large batch jobs.
+- Different models have different costs per million tokens — check the Snowflake Service Consumption Table.
+
+## Anti-Patterns
+
+- Do NOT use the old function names (COMPLETE, CLASSIFY_TEXT, EXTRACT_ANSWER, SENTIMENT, TRANSLATE, etc.) — use AI_* versions.
+- Do NOT pass entire large tables through AI_COMPLETE row-by-row without cost estimation first.
+- Do NOT use AI_COMPLETE for simple classification — use AI_CLASSIFY instead (purpose-built, cheaper).
+- Do NOT hardcode model names without considering regional availability.
