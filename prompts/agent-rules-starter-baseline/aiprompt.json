@@ -1,0 +1,25 @@
+[
+  {
+    "name": "AI Coding Agent Baseline Rule",
+    "description": "A lightweight Cursor rule that tells AI coding agents to read local code first, keep edits scoped, preserve user changes, and verify before handoff.",
+    "type": "rule",
+    "slug": "ai-coding-agent-baseline-rule",
+    "development_process": ["plan", "implement", "test", "maintain"],
+    "dev_categories": ["tooling", "productivity", "code-quality"],
+    "tags": ["cursor", "agent-rules", "ai-coding", "claude-code", "codex", "project-rules"],
+    "tech_stack": {
+      "framework": "cursor",
+      "library": ["agents-md", "claude-md", "cursor-rules"]
+    },
+    "ai_editor": ["cursor", "claude-code", "codex"],
+    "author": {
+      "name": "758302-tech",
+      "url": "https://github.com/758302-tech/agent-rules-starter-free",
+      "avatar": "https://avatars.githubusercontent.com/u/270007374?v=4"
+    },
+    "model": ["reasoning", "agent"],
+    "version": "1.0",
+    "files": ["rule-ai-coding-agent-baseline.mdc"],
+    "published": true
+  }
+]
