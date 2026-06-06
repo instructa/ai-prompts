@@ -156,6 +156,70 @@
     "filePath": "prompts/clerk-svelte/aiprompt.json"
   },
   {
+    "name": "AI Coding Agent Baseline Rule",
+    "description": "A lightweight Cursor rule that tells AI coding agents to read local code first, keep edits scoped, preserve user changes, and verify before handoff.",
+    "type": "rule",
+    "slug": "ai-coding-agent-baseline-rule",
+    "development_process": [
+      "plan",
+      "implement",
+      "test",
+      "maintain"
+    ],
+    "dev_categories": [
+      "tooling",
+      "productivity",
+      "code-quality"
+    ],
+    "tags": [
+      "cursor",
+      "agent-rules",
+      "ai-coding",
+      "claude-code",
+      "codex",
+      "project-rules"
+    ],
+    "tech_stack": {
+      "framework": "cursor",
+      "service": [],
+      "library": [
+        "agents-md",
+        "claude-md",
+        "cursor-rules"
+      ]
+    },
+    "ai_editor": [
+      "cursor",
+      "claude-code",
+      "codex"
+    ],
+    "author": {
+      "name": "758302-tech",
+      "url": "https://github.com/758302-tech/agent-rules-starter-free",
+      "avatar": "https://avatars.githubusercontent.com/u/270007374?v=4"
+    },
+    "model": [
+      "reasoning",
+      "agent"
+    ],
+    "version": "1.0",
+    "files": [
+      "rule-ai-coding-agent-baseline.mdc"
+    ],
+    "published": true,
+    "prompts": [
+      {
+        "description": "Baseline project rule for AI coding agents",
+        "globs": "**/*",
+        "alwaysApply": true,
+        "id": "prompts-agent-rules-starter-baseline-rule-ai-coding-agent-baseline.mdc",
+        "content": "\n# AI Coding Agent Baseline\n\nUse this rule as a small operating layer for Cursor Agent and companion AI coding tools.\n\nCompanion AGENTS.md, CLAUDE.md, and Cursor sample:\nhttps://github.com/758302-tech/agent-rules-starter-free\n\n## Before Editing\n\n- Read the relevant files before proposing or changing code.\n- Prefer existing patterns, utilities, dependencies, and naming conventions.\n- Identify whether the request is a bug fix, feature, refactor, content edit, test, or release task.\n- If the task is ambiguous, make the safest reasonable assumption and state it briefly.\n\n## Editing Rules\n\n- Keep changes scoped to the user's request.\n- Do not rewrite unrelated files.\n- Do not change public behavior unless the request requires it.\n- Do not introduce a new dependency unless it clearly reduces complexity.\n- Add comments only where they explain non-obvious logic.\n- Avoid broad refactors during narrow fixes.\n\n## Testing\n\n- Run the smallest meaningful verification command available.\n- If tests cannot run, explain why and name the risk.\n- For UI work, verify that text fits, controls are usable, and the first screen is the real experience.\n\n## Git Safety\n\n- Never discard user changes.\n- Never run destructive git commands unless explicitly requested.\n- Before committing, summarize changed files and verification.\n\n## Final Response\n\n- Lead with what changed.\n- Include verification results.\n- Mention any remaining risk or manual step.\n",
+        "filePath": "prompts/agent-rules-starter-baseline/rule-ai-coding-agent-baseline.mdc"
+      }
+    ],
+    "filePath": "prompts/agent-rules-starter-baseline/aiprompt.json"
+  },
+  {
     "name": "Angular 19 Coding Standards",
     "description": "Comprehensive coding standards and best practices for Angular 19 development, covering project structure, TypeScript usage, and more",
     "type": "rule",
