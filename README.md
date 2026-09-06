@@ -68,6 +68,10 @@ For full details, please see our [Contribution Guidelines](./CONTRIBUTING.md).
 - Bluesky: [@kevinkern.dev](https://bsky.app/profile/kevinkern.dev)
 
 
+## 🔗 Related Projects
+
+- [DevScratchpad AI Skill Studio](https://www.devscratchpad.tech/ai-skill-studio) - Free, 100% client-side privacy-first web scratchpad for generating, validating, and previewing Cursor `.mdc` rules, Claude Code skills, and `AGENTS.md` directives with 36+ battle-tested framework presets.
+
 ## License
 
 [MIT License](https://github.com/instructa/ai-prompts/blob/main/LICENSE)
