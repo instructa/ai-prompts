@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       zod:
-        specifier: 3.24.2
-        version: 3.24.2
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       node:
         specifier: runtime:24.15.0
@@ -139,11 +139,11 @@ packages:
     version: 24.15.0
     hasBin: true
 
-  zod@3.24.2:
-    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
 snapshots:
 
   node@runtime:24.15.0: {}
 
-  zod@3.24.2: {}
+  zod@4.6.6: {}
